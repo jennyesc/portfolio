@@ -36,59 +36,10 @@
     </header>
 
     <main>
-        <section class="intro-container">
-            <div class="intro">
-                <h2><span class="red-block">Front-end developer</span> and
-                <span class="blue-block">designer </span>
-                with a passion for the <span class="yellow-block">creative process </span>
-                and user centric design.</h2>
-            </div>
-        </section>
 
-        <section class="current-container">
-            <picture class="current-img">
-                <source media="(min-width: 320px)" srcset="images/twoSistersMobile.png">
-                <img src="images/twoSistersMobile.png" alt="two iPhones showing a website">
-            </picture>
-
-            <div class="cur-text-container">
-                <h3>Current Project</h3>
-                <h4>Two Sisters Bakery</h4>
-                <p class="dev-par"> In Development</p>
-
-                <h4 class="tools"> Tools</h4>
-                <p class="tools-par"> Adobe XD | Adobe Photoshop | WordPress | WooCommerce</p>
-            </div>
-        </section>
-
-        <section class="view-all">
-            <p class="view-all-par">View all projects</p>
-        </section>
-
-        <section class="about-jenny-container">
-            <picture class="about-img">
-                <source media="(min-width:320px;)" srcset="images/about-jenny-320.jpg">
-                <img src="images/about-jenny-320.jpg" alt="monitor and laptop with blue overlay">
-            </picture>
-
-            <div class="about-text-container">
-                <h3> A little about me</h3>
-                <p> I am a Front-End Developer and UX/UI Designer with a professional background in graphic design. 
-                I love being part of the creative process and seeing a well planned project come to life. </p>
-                <p> In my spare time, you will find me either behind one of my sewing machines creating something 
-                new or exploring our beautiful landscape on my bicycle. </p>                
-            </div>
-        </section>
-
-        <section class="more-about">
-            <div class="yellow-box"></div>
-            <div class="black-box"></div>
-        </section>
-
-        <footer>
+       <footer>
             <?php include 'footer.php';?>
         </footer>
-
     </main>
 </body>
 </html>

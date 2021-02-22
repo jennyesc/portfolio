@@ -1,0 +1,13 @@
+//Base Settings
+@use '../base/vars' as *;
+@use '../base/typography' as *;
+@use '../utilities/mixins' as *;
+@use '../utilities/functions' as *;
+
+body, html{
+    height: 100%;
+}
+
+a{
+    text-decoration: none;
+}

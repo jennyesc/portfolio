@@ -1,0 +1,25 @@
+//Mixins
+
+
+//MC - Centres an element within margin
+
+@mixin mc($isImage: false, $top: 0, $bottom: 0){
+    @if($isImage == true){
+        display: block;
+    }
+    margin: {
+        top: $top;
+        bottom: $bottom;
+        left: auto;
+        right: auto;
+    }
+}
+
+
+//Media Queries
+
+@mixin desktop{
+    @media (min-width: #{desktop}){
+        @content;
+    }
+}
