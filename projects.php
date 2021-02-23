@@ -37,6 +37,63 @@
 
     <main>
 
+        <section class="proj-current">
+            <picture class="proj-current-img">
+                <source media="(min-width: 320px)" srcset="images/twoSistersMobile.png">
+                <img src="images/twoSistersMobile.png" alt="two iPhones showing a website">
+            </picture>
+        
+            <div class="proj-cur-txtbx">
+                <h3>Current Project</h3>
+                <h4>Two Sisters Bakery</h4>
+                <p class="dev-par"> In Development</p>
+
+                <h4 class="tools"> Tools</h4>
+                <p class="tools-par"> Adobe XD | Adobe Photoshop | WordPress | WooCommerce</p>           
+            </div>
+
+            <a href="two-sisters.php" class="cur-btn">Go to Project</a>
+        </section>
+
+        <section class="portfolio-proj">
+            <picture class="portfolio-proj-img">
+                <source media="(min-width: 320px)" srcset="images/portfolio-320.jpg">
+                <!-- <source media="(min-width: 320px)" srcset="images/portfolio-320.png"> -->
+                <img src="images/portfolio-full.jpg" alt="laptop and painting on desk">
+            </picture>
+        
+
+            <div class="portfolio-txtbx">
+                <h3>Portfolio Project</h3>
+                <p class="dev-par"> Read about the inspiration behind the design of my portfolio.</p>
+
+                <h4 class="tools"> Tools</h4>
+                <p class="tools-par"> Adobe XD | Adobe Photoshop | HTML5 | CSS3/Sass | JavaScript | PHP</p>           
+           </div>
+
+           <a href="portfolio.php" class="cur-btn">Go to Project</a>
+        </section>
+
+        <section class="react-proj">
+            <picture class="react-proj-img">
+                <source media="(min-width: 320px)" srcset="images/moviebuff-320.jpg">
+                <!-- <source media="(min-width: 320px)" srcset="images/portfolio-320.png"> -->
+                <img src="images/portfolio-full.jpg" alt="laptop and painting on desk">
+            </picture>
+        
+            <div class="react-txtbx">
+                <h3>The Movie Buff</h3>
+                <h4>React App Project</h4>
+                
+
+                <h4 class="tools"> Tools</h4>
+                <p class="tools-par"> Adobe Photoshop | React | HTML5 | CSS3/Sass |</p>           
+           </div>
+
+           <a href="moviebuff.php" class="cur-btn">Go to Project</a>
+                
+        </section>
+
        <footer>
             <?php include 'footer.php';?>
         </footer>

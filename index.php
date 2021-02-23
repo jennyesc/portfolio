@@ -62,7 +62,7 @@
         </section>
 
         <section class="view-all">
-            <p class="view-all-par">View all projects</p>
+            <a href="projects.php" class="view-all">View all projects</a>
         </section>
 
         <section class="about-jenny-container">
@@ -81,6 +81,10 @@
         </section>
 
         <section class="more-about">
+            <a href="about.php" class="more-about">More about me</a>
+        </section>
+
+        <section class="index-box-cont">
             <div class="yellow-box"></div>
             <div class="black-box"></div>
         </section>

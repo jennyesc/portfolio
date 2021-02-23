@@ -7,18 +7,23 @@
 @use 'base/vars';
 
 
-// //Page Styles
-// @use 'pages/home';
-// @use 'pages/projects';
-// @use 'pages/single-project';
-// @use 'pages/about';
-// @use 'pages/contact';
-// @use 'pages/page-not-found';
+//Page Styles
+@use 'pages/home';
+@use 'pages/projects';
+@use 'pages/single-project';
+@use 'pages/about';
+@use 'pages/contact';
+@use 'pages/page-not-found';
 
-// //Global Styles
-// @use 'pages/header';
-// @use 'pages/nav';
-// @use 'pages/footer';
+//Sub Section in page
+@use 'pages/accordion';
+
+//Global Styles
+@use 'pages/header';
+@use 'pages/nav';
+@use 'pages/footer';
+
+
 
 // //Utilities
 @use 'utilities/functions';
