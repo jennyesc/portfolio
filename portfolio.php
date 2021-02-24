@@ -27,6 +27,7 @@
     <meta name="msapplication-wide310x150logo" content="mstile-310x150.png" />
     <meta name="msapplication-square310x310logo" content="mstile-310x310.png" />
     <script src="https://kit.fontawesome.com/3a17e8db5a.js" crossorigin="anonymous"></script>
+    
 
     <title>Jenny Escobell | Front End Developer & UX Designer | New Westminster BC</title>
 </head>
@@ -37,9 +38,64 @@
 
     <main>
 
+        <section class="project-intro">
+            <picture class="project-hero">
+                <source media="(min-width: 320px)" srcset="images/portfolio-320.jpg">
+                <img src="images/portfolio-full.jpg" alt="laptop and painting on desk">
+            </picture>
+            
+            <div class="project-summary portfolio-summary">
+                <h3>Portfolio Project</h3>
+                <p> For this project, I choose to <em>hard code</em> my portfolio website using HTML5, CSS3/Sass and JavaScript. 
+                As my other portfolio projects are built using WordPress and React, I felt that a hard coded site would be a nice balance.
+                During the research and planning phase, I decided to expand on the theme from my student landing page.
+            </p>
+                
+            <h4>Inspiration</h4>
+            <p>My inspiration for the design of my portfolio is the artwork of the Dutch artist, Piet Mondrian (1872-1944). Growing up in 
+                The Netherlands, the architectural and art forms from the De Stijl movement, made an everlasting impression on me. With the 
+                creative freedom of this project, I choose to take from my inspiration and use the bold colours and grid layouts. 
+            </p>
+                <p>Project timeline: Five Weeks </p>            
+            </div>
+        </section>
+
+        <section class="key-info">
+            <h3 class="key-heading">Roles</h3>
+            <p>As this was a solo project, I did 100% of the work.</p>
+            
+            <h3 class="key-heading">Software</h3>
+            <p>Adobe XD, Adobe Photoshop, GitHub, Trello, VS Code.</p>
+
+            <h3 class="key-heading">Development</h3>
+            <p>HTML5, CSS3/Sass, JavaScript, PHP.</p>
+        </section>
+
+        <section class="accordion-container">
+            <?php include 'accordion-pf.php';?>
+        </section>
+
+        <section class="reflections">
+        <h3>Reflections</h3>
+        <p>Coming Soon</p>
+        
+        </section>
+
+        <section class="project-buttons">
+            <a href="#"> Live Site</a>
+            <a href="#"> GitHub</a>      
+        </section>
+
+        <section class="next-prev">
+            <a href="#">Previous</a>
+            <a href="#">Next</a>
+        </section>
+
        <footer>
             <?php include 'footer.php';?>
         </footer>
     </main>
+    <script src="scripts/accordion.js"></script>
+  
 </body>
 </html>
