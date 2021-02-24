@@ -1,8 +1,12 @@
+ 
+
+
+
 
 <!-- Accordion from Chris Wright CodePen https://codepen.io/chriswrightdesign/pen/cmanI -->
 
 
-<section class="accordion">
+<!-- <section class="accordion">
     <dl>
         <dt>
             <a href="#accordion1" aria-expanded="false" aria-controls="accordion1" 
@@ -56,4 +60,4 @@
        
     </dl>
 </section>
-       
+        -->
