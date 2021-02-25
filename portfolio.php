@@ -87,8 +87,8 @@
         </section>
 
         <section class="next-prev">
-            <a href="#">Previous</a>
-            <a href="#">Next</a>
+            <a href="two-sisters.php">Previous</a>
+            <a href="moviebuff.php">Next</a>
         </section>
 
        <footer>
