@@ -37,6 +37,53 @@
 
     <main>
 
+    <section class="about-intro-1">
+        <h3>Hello and welcome!</h3>
+        <p>I am an aspiring Front-end Web Developer and UX/UI Designer 
+        with a passion for the creative process and seeing a well planned project come to life. </p>
+    
+        <picture class="jenny-pic">
+                <source media="(min-width: 320px)" srcset="images/jenny-web.jpg">
+                <source media="(min-width: 450px)" srcset="images/jenny-web-full.jpg">
+                <img src="images/jenny-web-full.jpg" alt="Jenny Escobell">
+        </picture>
+
+        <p>With practical and professional industry experience, I have gained a strong foundation of industry standards and best practises. I always tell people that I love to listen to hear what you are not saying. I am team oriented, love to collaborate and appreciate feedback 
+        with the mindset to continuously grow as a developer and designer.</p>
+        
+        <a class="faux-red-btn" href="projects.php">View Projects</a>
+        <a class="faux-yellow-btn" href="#">Graphic Design Samples</a>
+    
+    </section>
+
+    <section class="about-tools">
+        <h3>Toolkit</h3>
+        <h4>Adobe</h4>
+        <ul class="design-tools">
+            <li>XD</li>
+            <li>Photoshop</li>
+            <li>Illustrator</li>
+            <li>InDesign</li>
+            <li>Figma</li>
+            <li>InVision</li>
+        </ul>
+
+        <ul class="dev-tools">
+            <li>HTML5</li>
+            <li>CSS3/Sass</li>
+            <li>WordPress</li>
+            <li>WooCommerce</li>
+            <li>JavaScript</li>
+            <li>PHP</li>
+            <li>GitHub</li>
+        </ul>
+    </section>
+
+    
+    
+    
+
+
        <footer>
             <?php include 'footer.php';?>
         </footer>

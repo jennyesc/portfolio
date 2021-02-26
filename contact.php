@@ -37,9 +37,22 @@
 
     <main>
 
-       <footer>
-            <?php include 'footer.php';?>
-        </footer>
+    <section class="contact-intro">
+        <h2>Connect</h2>
+        <p>If you are interesed in collaborating on a project or 
+        if you have any questions, please feel free to contact me.</p>    
+    </section>
+
+    <div class="contact-boxes">
+        <a class="email" href="mailto:jenny.escobell@gmail.com">email</a>
+        <a class="fab fa-twitter" href="https://twitter.com/jennyescobell" target="_blank"> Tweet </a>
+        <a class="fab fa-linkedin-in" href="https://www.linkedin.com/in/jennyescobell/" target="_blank">Connect</a>
+        <a class="fas fa-mobile" href="tel:6047906588">Call</a>       
+    </div>
+
+    <footer>
+        <?php include 'footer.php';?>
+    </footer>
     </main>
 </body>
 </html>
