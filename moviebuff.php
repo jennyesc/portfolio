@@ -39,11 +39,12 @@
     <main>
 
         <section class="project-intro">
-            <picture class="project-hero">
-                <source media="(min-width: 320px)" srcset="images/react-mu320.jpg">
-                <source media="(min-width: 900px)" srcset="images/react-mu900.jpg">
-                <img src="images/react-mu900.jpg" alt="Computer on a desk with a yellow wall">
-            </picture>
+            <picture>
+                <source media="(max-width: 500px)" srcset="images/moviebuff-500.jpg">
+                <source media="(max-width: 800px)" srcset="images/moviebuff-1000.jpg">
+                <source media="(min-width: 800px)" srcset="images/moviebuff-full.jpg">
+                <img src="images/moviebuff-1000.jpg" alt="computer on desk with a yellow background">
+			</picture>
             
             <div class="project-summary">
                 <h3>The Movie Buff</h3>

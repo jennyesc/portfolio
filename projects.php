@@ -38,10 +38,12 @@
     <main>
 
         <section class="proj-current">
-            <picture class="proj-current-img">
-                <source media="(min-width: 320px)" srcset="images/twoSistersMobile.png">
-                <img src="images/twoSistersMobile.png" alt="two iPhones showing a website">
-            </picture>
+            <picture>
+                <source media="(max-width: 500px)" srcset="images/two-sisters-mobile-500.jpg">
+                <source media="(max-width: 750px)" srcset="images/two-sisters-mobile-1000.jpg">
+                <source media="(min-width: 750px)" srcset="images/two-sisters-mobile-1200ls.jpg">
+                <img src="images/two-sisters-mobile-1000.jpg" alt="two iPhones on a red background">
+			</picture>
         
             <div class="proj-cur-txtbx">
                 <h3>Current Project</h3>
@@ -56,11 +58,12 @@
         </section>
 
         <section class="portfolio-proj">
-            <picture class="portfolio-proj-img">
-                <source media="(min-width: 320px)" srcset="images/portfolio-320.jpg">
-                <!-- <source media="(min-width: 320px)" srcset="images/portfolio-320.png"> -->
-                <img src="images/portfolio-full.jpg" alt="laptop and painting on desk">
-            </picture>
+            <picture>
+                <source media="(max-width: 500px)" srcset="images/portfolio-500.jpg">
+                <source media="(max-width: 1000px)" srcset="images/portfolio-1000.jpg">
+                <source media="(min-width: 1000px)" srcset="images/portfolio-full.jpg">
+                <img src="images/portfolio-1000.jpg" alt="laptop and painting on blue background">
+			</picture>
         
 
             <div class="portfolio-txtbx">
@@ -75,11 +78,12 @@
         </section>
 
         <section class="react-proj">
-            <picture class="react-proj-img">
-                <source media="(min-width: 320px)" srcset="images/moviebuff-320.jpg">
-                <!-- <source media="(min-width: 320px)" srcset="images/portfolio-320.png"> -->
-                <img src="images/portfolio-full.jpg" alt="laptop and painting on desk">
-            </picture>
+            <picture>
+                <source media="(max-width: 500px)" srcset="images/moviebuff-500.jpg">
+                <source media="(max-width: 850px)" srcset="images/moviebuff-1000.jpg">
+                <source media="(min-width: 850px)" srcset="images/moviebuff-full.jpg">
+                <img src="images/moviebuff-1000.jpg" alt="computer on desk with a yellow background">
+			</picture>
         
             <div class="react-txtbx">
                 <h3>The Movie Buff</h3>

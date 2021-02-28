@@ -46,10 +46,12 @@
         </section>
 
         <section class="current-container">
-            <picture class="current-img">
-                <source media="(min-width: 320px)" srcset="images/twoSistersMobile.png">
-                <img src="images/twoSistersMobile.png" alt="two iPhones showing a website">
-            </picture>
+            <picture>
+                <source media="(max-width: 500px)" srcset="images/two-sisters-mobile-500.jpg">
+                <source media="(max-width: 750px)" srcset="images/two-sisters-mobile-1000.jpg">
+                <source media="(min-width: 750px)" srcset="images/two-sisters-mobile-1200ls.jpg">
+                <img src="images/two-sisters-mobile-1000.jpg" alt="two iPhones on a red background">
+			</picture>
 
             <div class="cur-text-container">
                 <h3>Current Project</h3>
@@ -66,10 +68,13 @@
         </section>
 
         <section class="about-jenny-container">
-            <picture class="about-img">
-                <source media="(min-width:320px;)" srcset="images/about-jenny-320.jpg">
-                <img src="images/about-jenny-320.jpg" alt="monitor and laptop with blue overlay">
-            </picture>
+
+            <picture>
+                <source media="(max-width: 500px)" srcset="images/about-jenny-320w.jpg">
+                <source media="(max-width: 750px)" srcset="images/about-jenny-750w.jpg">
+                <source media="(min-width: 750px)" srcset="images/about-jenny-1000w.jpg">
+                <img src="images/about-jenny-750w.jpg" alt="desk with monitor and laptop">
+			</picture>
 
             <div class="about-text-container">
                 <h3> A little about me</h3>

@@ -39,10 +39,12 @@
     <main>
 
         <section class="project-intro">
-            <picture class="project-hero">
-                <source media="(min-width: 320px)" srcset="images/portfolio-320.jpg">
-                <img src="images/portfolio-full.jpg" alt="laptop and painting on desk">
-            </picture>
+            <picture>
+                <source media="(max-width: 500px)" srcset="images/portfolio-500.jpg">
+                <source media="(max-width: 1000px)" srcset="images/portfolio-1000.jpg">
+                <source media="(min-width: 1000px)" srcset="images/portfolio-full.jpg">
+                <img src="images/portfolio-1000.jpg" alt="laptop and painting on blue background">
+			</picture>
             
             <div class="project-summary portfolio-summary">
                 <h3>Portfolio Project</h3>

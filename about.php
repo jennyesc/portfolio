@@ -42,11 +42,11 @@
         <p>I am an aspiring Front-end Web Developer and UX/UI Designer 
         with a passion for the creative process and seeing a well planned project come to life. </p>
     
-        <picture class="jenny-pic">
-                <source media="(min-width: 320px)" srcset="images/jenny-web.jpg">
+        <picture>
+                <source media="(max-width: 450px)" srcset="images/jenny-web.jpg">
                 <source media="(min-width: 450px)" srcset="images/jenny-web-full.jpg">
                 <img src="images/jenny-web-full.jpg" alt="Jenny Escobell">
-        </picture>
+			</picture>
 
         <p>With practical and professional industry experience, I have gained a strong foundation of industry standards and best practises. I always tell people that I love to listen to hear what you are not saying. I am team oriented, love to collaborate and appreciate feedback 
         with the mindset to continuously grow as a developer and designer.</p>

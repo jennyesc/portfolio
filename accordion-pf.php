@@ -11,11 +11,25 @@
             wireframes, I create a couple of wireframes for the desktop version of the site as well.
         </p>
         
-        <button class="accordion wireframes"> <p>View the wireframes</p> </button>
-        <div class="panel">
-        <p>wireframe 1</p>
-        <p>wireframe 1</p>
-        <p>wireframe 1</p>
+        <h5>Wireframes</h5>    
+        <div class="wireframes"> <p>Wireframes</p> </button>
+            <h6>Home Page</h6>
+            <img src="images/mobile-home.jpg" alt="wireframe of home page">
+            <img src="images/mobile-home-2.jpg" alt="wireframe of home page">
+            <h6>Projects Page</h6>
+            <img src="images/mobile-project1.jpg" alt="wireframe of projects page">
+            <img src="images/mobile-project2.jpg" alt="wireframe of projects page">
+            <h6>Individual Project Page</h6>
+            <img src="images/mobile-ind-proj1.jpg" alt="wireframe of individual projects page">
+            <img src="images/mobile-ind-proj2.jpg" alt="wireframe of individual projects page">
+            <img src="images/mobile-ind-proj3.jpg" alt="wireframe of individual projects page">
+            <img src="images/mobile-ind-proj4.jpg" alt="wireframe of individual projects page">
+            <h6>About Page</h6>
+            <img src="images/mobile-about1.jpg" alt="wireframe of about page">
+            <img src="images/mobile-about2.jpg" alt="wireframe of about page">
+            <h6>Contact Page</h6>
+            <img src="images/mobile-contact.jpg" alt="wireframe of about page">
+        </div>
 </div>
     
 </div>

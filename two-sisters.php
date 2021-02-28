@@ -39,10 +39,12 @@
     <main>
 
         <section class="project-intro">
-            <picture class="project-hero">
-                <source media="(min-width: 320px)" srcset="images/twoSistersMobile.png">
-                <img src="images/twoSistersMobile.png" alt="two iPhones showing a website">
-            </picture>
+            <picture>
+                <source media="(max-width: 500px)" srcset="images/two-sisters-mobile-500.jpg">
+                <source media="(max-width: 750px)" srcset="images/two-sisters-mobile-1000.jpg">
+                <source media="(min-width: 750px)" srcset="images/two-sisters-mobile-1200ls.jpg">
+                <img src="images/two-sisters-mobile-1000.jpg" alt="two iPhones on a red background">
+			</picture>
             
             <div class="project-summary">
                 <h3>Two Sisters Bakery</h3>
