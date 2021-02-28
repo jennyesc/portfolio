@@ -21,10 +21,9 @@ a{
     justify-content: center;
     margin-top: 25px;
 
-    .red-btn{
+    .faux-btn{
         display: inline-block;
         width: 175px;
-        background: $jne-red;
         border-radius: $border4;
         text-align: center;
         padding: 20px;
@@ -32,6 +31,19 @@ a{
         font-weight: $medium;
         font-size: 0.875rem;
         box-shadow: $shadow;
+    }
+
+    .red-btn{
+        background: $jne-red;
+    }
+
+    .blue-btn{
+        background: $jne-blue;
+    }
+
+    .yellow-btn{
+        background: $jne-yellow;
+        color: #000;
     }
 }
 

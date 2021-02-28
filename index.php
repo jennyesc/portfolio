@@ -62,7 +62,7 @@
                 <p class="tools-par"> Adobe XD | Adobe Photoshop <br> WordPress | WooCommerce</p>
 
                 <div class=btn-container>
-                    <a class="red-btn" href="two-sisters.php"> Go to Project</a>
+                    <a class="red-btn faux-btn" href="two-sisters.php"> Go to Project</a>
                 </div>
 
             </section>

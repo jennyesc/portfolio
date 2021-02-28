@@ -1,0 +1,62 @@
+@use '../base/vars' as *;
+
+.current-proj{
+    display: grid;
+    flex-wrap: wrap;
+    align-items: center;
+    grid-row-gap: 15px;
+    margin-top: 100px;
+    
+
+    h2{
+        text-transform: uppercase;
+        font-weight: $bold;
+    }
+
+    .proj-cur-textbox{
+        padding: $padding;
+        background: $jne-white;
+    }
+}
+
+.portfolio-proj{
+    display: grid;
+    flex-wrap: wrap;
+    align-items: center;
+    grid-row-gap: 15px;
+
+    .portfolio-textbox{
+        padding: $padding;
+        background: $jne-white;
+    }
+}
+
+.react-proj{
+    display: grid;
+    flex-wrap: wrap;
+    align-items: center;
+    grid-row-gap: 15px;
+
+    .react-textbox{
+        padding: $padding;
+        background: $jne-white;
+    }
+}
+.projects-box-cont{
+    display: grid;
+    grid-template-columns: repeat (2, 2fr);
+    grid-auto-rows: 50px;
+    grid-column-gap: 15px;
+    grid-template-areas: 
+            "blue-box  red-box"
+            "blue-box  red-box";
+    .blue-box{
+        background: $jne-blue;
+        grid-area: blue-box;
+    }
+
+    .red-box{
+        background: $jne-red;
+        grid-area: red-box;
+    }
+}

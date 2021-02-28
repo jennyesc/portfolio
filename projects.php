@@ -37,7 +37,9 @@
 
     <main>
 
-        <section class="proj-current">
+        <section class="current-proj">
+            
+            <h2>Projects</h2>
             <picture>
                 <source media="(max-width: 500px)" srcset="images/two-sisters-mobile-500.jpg">
                 <source media="(max-width: 750px)" srcset="images/two-sisters-mobile-1000.jpg">
@@ -45,16 +47,18 @@
                 <img src="images/two-sisters-mobile-1000.jpg" alt="two iPhones on a red background">
 			</picture>
         
-            <div class="proj-cur-txtbx">
+            <div class="proj-cur-textbox">
                 <h3>Current Project</h3>
                 <h4>Two Sisters Bakery</h4>
                 <p class="dev-par"> In Development</p>
 
                 <h4 class="tools"> Tools</h4>
-                <p class="tools-par"> Adobe XD | Adobe Photoshop | WordPress | WooCommerce</p>           
+                <p class="tools-par"> Adobe XD | Adobe Photoshop <br> WordPress | WooCommerce</p>           
+                
+                <div class=btn-container>
+                    <a class="faux-btn red-btn" href="two-sisters.php"> Go to Project</a>
+                </div>
             </div>
-
-            <a href="two-sisters.php" class="cur-btn">Go to Project</a>
         </section>
 
         <section class="portfolio-proj">
@@ -66,15 +70,20 @@
 			</picture>
         
 
-            <div class="portfolio-txtbx">
+            <div class="portfolio-textbox">
                 <h3>Portfolio Project</h3>
                 <p class="dev-par"> Read about the inspiration behind the design of my portfolio.</p>
 
                 <h4 class="tools"> Tools</h4>
-                <p class="tools-par"> Adobe XD | Adobe Photoshop | HTML5 | CSS3/Sass | JavaScript | PHP</p>           
-           </div>
+                <p class="tools-par"> Adobe XD | Adobe Photoshop <br> HTML5 | CSS3/Sass | JavaScript | PHP</p>           
 
-           <a href="portfolio.php" class="cur-btn">Go to Project</a>
+                <div class=btn-container>
+                    <a class="blue-btn faux-btn" href="portfolio.php"> Go to Project</a>
+                </div>
+           
+            </div>
+
+           
         </section>
 
         <section class="react-proj">
@@ -85,16 +94,22 @@
                 <img src="images/moviebuff-1000.jpg" alt="computer on desk with a yellow background">
 			</picture>
         
-            <div class="react-txtbx">
+            <div class="react-textbox">
                 <h3>The Movie Buff</h3>
                 <h4>React App Project</h4>
                 
-
                 <h4 class="tools"> Tools</h4>
-                <p class="tools-par"> Adobe Photoshop | React | HTML5 | CSS3/Sass |</p>           
-           </div>
+                <p class="tools-par"> Adobe Photoshop <br> React | HTML5 | CSS3/Sass </p>           
+           
+                <div class=btn-container>
+                    <a class="yellow-btn faux-btn" href="moviebuff.php"> Go to Project</a>
+                </div>
+            </div>
+        </section>
 
-           <a href="moviebuff.php" class="cur-btn">Go to Project</a>
+        <section class="projects-box-cont">
+            <div class="blue-box"></div>
+            <div class="red-box"></div>
         </section>
 
         <button onclick="topFunction()" id="myBtn" class="top-btn" title="Go to top"><i class="fas fa-arrow-circle-up"></i> </button>
