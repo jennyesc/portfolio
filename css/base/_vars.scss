@@ -15,6 +15,7 @@ $siteWidth: 1000px;
 $roboto: 'Roboto', sans-serif;
 
 //font-weight
+$light: 300;
 $body: 400;
 $medium: 500;
 $bold: 700;
@@ -22,3 +23,14 @@ $black: 900;
 
 //borders
 $border4: 4px;
+
+//box shadow
+$shadow: 2px 2px 3px -1px rgba(30,16,13,0.35);
+
+//testing
+$redborder: 2px solid red;
+$greenborder: 2px solid green;
+$blueborder: 2px solid blue;
+$purpleborder: 2px solid purple;
+$orangeborder: 2px solid orange;
+$blackborder: 2px solid black;

@@ -1,0 +1,35 @@
+@use '../base/vars' as *;
+
+//styles for header global
+
+.header-row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+    position: relative;
+    padding-top: 40px;
+    height: 10vh;
+    
+
+    .logo{
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        margin-left: -15px;
+        
+        img{
+            height: 75px;
+            width: auto;
+        }
+    
+        h1{
+             margin-top: 30px;
+             margin-left: -50px;
+        }
+    }
+
+
+
+}

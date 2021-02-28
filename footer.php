@@ -6,7 +6,6 @@
 </section>
 
 <section class="footer-social">
-    <h3>Get in Touch!</h3>
     <a href="https://twitter.com/jennyescobell" target="_blank" class="fab fa-twitter fa-2x"></a>
     <a href="mailto:jenny.escobell@gmail.com" target="_blank" class="fas fab fa-envelope fa-2x"></a>
     <a href="https://www.linkedin.com/in/jennyescobell/" target="_blank" class="fab fa-linkedin-in fa-2x"></a>

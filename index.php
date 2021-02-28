@@ -36,11 +36,11 @@
     </header>
 
     <main>
-        <section class="intro-container">
+        <section id="top" class="intro-container">
             <div class="intro">
                 <h2><span class="red-block">Front-end developer</span> and
-                <span class="blue-block">designer </span>
-                with a passion for the <span class="yellow-block">creative process </span>
+               designer 
+                with a  <span class="blue-block">passion </span>for the <span class="yellow-block">creative process </span>
                 and user centric design.</h2>
             </div>
         </section>
@@ -53,18 +53,24 @@
                 <img src="images/two-sisters-mobile-1000.jpg" alt="two iPhones on a red background">
 			</picture>
 
-            <div class="cur-text-container">
+            <section class="cur-text-container">
                 <h3>Current Project</h3>
                 <h4>Two Sisters Bakery</h4>
                 <p class="dev-par"> In Development</p>
 
                 <h4 class="tools"> Tools</h4>
-                <p class="tools-par"> Adobe XD | Adobe Photoshop | WordPress | WooCommerce</p>
-            </div>
-        </section>
+                <p class="tools-par"> Adobe XD | Adobe Photoshop <br> WordPress | WooCommerce</p>
 
-        <section class="view-all">
-            <a href="projects.php" class="view-all">View all projects</a>
+                <div class=btn-container>
+                    <a class="red-btn" href="two-sisters.php"> Go to Project</a>
+                </div>
+
+            </section>
+
+            <article class="view-all-btn">
+                <a href="projects.php" class="view-all-link">View all projects</a>
+            </article>
+
         </section>
 
         <section class="about-jenny-container">
@@ -80,24 +86,26 @@
                 <h3> A little about me</h3>
                 <p> I am a Front-End Developer and UX/UI Designer with a professional background in graphic design. 
                 I love being part of the creative process and seeing a well planned project come to life. </p>
-                <p> In my spare time, you will find me either behind one of my sewing machines creating something 
+                <p> In my spare time, you will find me either behind one of my sewing machines creating something 
                 new or exploring our beautiful landscape on my bicycle. </p>                
             </div>
         </section>
 
-        <section class="more-about">
+        <article class="about-btn">
             <a href="about.php" class="more-about">More about me</a>
-        </section>
+        </article>
 
         <section class="index-box-cont">
             <div class="yellow-box"></div>
             <div class="black-box"></div>
         </section>
 
+        <button onclick="topFunction()" id="myBtn" class="top-btn" title="Go to top"><i class="fas fa-arrow-circle-up"></i> </button>
+
         <footer>
             <?php include 'footer.php';?>
         </footer>
-
     </main>
+    <script src="scripts/top-button.js"></script>
 </body>
 </html>

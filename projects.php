@@ -95,12 +95,14 @@
            </div>
 
            <a href="moviebuff.php" class="cur-btn">Go to Project</a>
-                
         </section>
 
-       <footer>
+        <button onclick="topFunction()" id="myBtn" class="top-btn" title="Go to top"><i class="fas fa-arrow-circle-up"></i> </button>
+       
+        <footer>
             <?php include 'footer.php';?>
         </footer>
     </main>
+    <script src="scripts/top-button.js"></script>
 </body>
 </html>
