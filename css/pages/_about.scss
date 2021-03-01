@@ -1,0 +1,50 @@
+@use '../base/vars' as *;
+
+//styles for about page
+
+.about-intro-1{
+    margin-top: 100px;
+    
+    
+    h3{
+        padding: 20px 0 5px 15px;
+    }
+
+    p{
+        padding: $padding;
+        line-height: 1.4rem;
+    }
+}
+
+.toolkit{
+    background: $jne-blue;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: $padding;
+    color: #fff;
+
+    h3{
+        width: 100%;
+        margin-bottom: 15px;
+        margin-top: 10px;
+    }
+
+    ul{ 
+        line-height: 1.6rem;
+        
+        .li-heading{
+            font-weight: $bold;
+            margin-bottom: 5px;
+            font-size: 1.05rem;
+        }
+        .li{
+            padding: 10px 0;
+            display: inline-block;
+        }
+        .adobe{
+            margin-left: 10px;
+            font-weight: $light;
+        }    
+    }
+}

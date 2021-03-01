@@ -31,11 +31,22 @@ h4{
     padding: 15px 0 5px 0;
 }
 
+h5{ 
+    color: #fff;
+    font-weight: $medium;
+    padding: 4px;
+}
+
 .dev-par{
     font-style: italic;
     color: $jne-blue;
     line-height: 1.30rem;
     margin-bottom: 20px;
+}
+
+p{
+    hyphens: none;
+    line-height: 1.35rem;
 }
 
 .tools{
@@ -47,4 +58,8 @@ h4{
 
 .tools-par{
     line-height: 1.5rem;
+}
+
+.last-par{
+    padding-bottom: 15px;
 }

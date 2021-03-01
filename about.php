@@ -39,8 +39,8 @@
 
     <section class="about-intro-1">
         <h3>Hello and welcome!</h3>
-        <p>I am an aspiring Front-end Web Developer and UX/UI Designer 
-        with a passion for the creative process and seeing a well planned project come to life. </p>
+        <p>I am a Front-end Web Developer and UX/UI Designer 
+        with a passion for the creative process and seeing a well planned project come to life. </p>
     
         <picture>
                 <source media="(max-width: 450px)" srcset="images/jenny-web.jpg">
@@ -51,24 +51,31 @@
         <p>With practical and professional industry experience, I have gained a strong foundation of industry standards and best practises. I always tell people that I love to listen to hear what you are not saying. I am team oriented, love to collaborate and appreciate feedback 
         with the mindset to continuously grow as a developer and designer.</p>
         
-        <a class="faux-red-btn" href="projects.php">View Projects</a>
-        <a class="faux-yellow-btn" href="#">Graphic Design Samples</a>
+        <div class="btn-container">
+            <a class="red-btn faux-btn" href="projects.php"> View Projects</a>
+        </div>
+        <div class="btn-container">
+            <a class="yellow-btn faux-btn" href="#">Graphic Design Samples</a>
+        </div>
+       
     
     </section>
 
-    <section class="about-tools">
+    <section class="toolkit">
         <h3>Toolkit</h3>
-        <h4>Adobe</h4>
         <ul class="design-tools">
-            <li>XD</li>
-            <li>Photoshop</li>
-            <li>Illustrator</li>
-            <li>InDesign</li>
+            <li class="li-heading">Design</li>
+            <li>Adobe</li>
+            <li class="adobe">XD</li>
+            <li class="adobe">Photoshop</li>
+            <li class="adobe">Illustrator</li>
+            <li class="adobe last-li">InDesign</li>
             <li>Figma</li>
             <li>InVision</li>
         </ul>
 
         <ul class="dev-tools">
+            <li class="li-heading">Development</li>
             <li>HTML5</li>
             <li>CSS3/Sass</li>
             <li>WordPress</li>
@@ -78,15 +85,13 @@
             <li>GitHub</li>
         </ul>
     </section>
-
     
+    <button onclick="topFunction()" id="myBtn" class="top-btn" title="Go to top"><i class="fas fa-arrow-circle-up"></i> </button>
+    <footer>
+        <?php include 'footer.php';?>
+    </footer>
     
-    
-
-
-       <footer>
-            <?php include 'footer.php';?>
-        </footer>
     </main>
+    <script src="scripts/javascript.js"></script>
 </body>
 </html>

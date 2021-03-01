@@ -108,8 +108,8 @@
         </section>
 
         <section class="projects-box-cont">
-            <div class="blue-box"></div>
-            <div class="red-box"></div>
+            <div class="blue-box"><p>Home</p></div>
+            <div class="red-box"><p> About</p></div>
         </section>
 
         <button onclick="topFunction()" id="myBtn" class="top-btn" title="Go to top"><i class="fas fa-arrow-circle-up"></i> </button>
@@ -118,6 +118,6 @@
             <?php include 'footer.php';?>
         </footer>
     </main>
-    <script src="scripts/top-button.js"></script>
+    <script src="scripts/javascript.js"></script>
 </body>
 </html>

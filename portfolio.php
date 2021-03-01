@@ -49,7 +49,7 @@
             <div class="project-summary portfolio-summary">
                 <h3>Portfolio Project</h3>
                 <p> For this project, I choose to <em>hard code</em> my portfolio website using HTML5, CSS3/Sass and JavaScript. 
-                As my other portfolio projects are built using WordPress and React, I felt that a hard coded site would be a nice balance.
+                As my other portfolio projects were built using WordPress and React, I felt that a hard coded site would be a nice balance.
                 During the research and planning phase, I decided to expand on the theme from my student landing page.
             </p>
                 
@@ -58,7 +58,7 @@
                 The Netherlands, the architectural and art forms from the De Stijl movement, made an everlasting impression on me. With the 
                 creative freedom of this project, I choose to take from my inspiration and use the bold colours and grid layouts. 
             </p>
-                <p>Project timeline: Five Weeks </p>            
+                <p class="timeline">Project timeline: Five Weeks </p>            
             </div>
         </section>
 
@@ -79,25 +79,30 @@
 
         <section class="reflections">
         <h3>Reflections</h3>
-        <p>Coming Soon</p>
+        <p class="last-par">Coming Soon</p>
         
+        <div class="btn-container">
+            <a class="red-btn faux-btn" href="#"> Coming Soon</a>
+        </div>
+        
+        <div class="btn-container">
+            <a class="yellow-btn faux-btn" href="#"> GitHub</a>
+        </div>
+
         </section>
 
-        <section class="project-buttons">
-            <a href="#"> Live Site</a>
-            <a href="#"> GitHub</a>      
+        <section class="indiv-box-cont">
+            <a class="blue-box" href="two-sisters.php"> <i class="fas fa-chevron-left"></i> Previous</div>
+            <a class="black-box" href="moviebuff.php">Next <i class="fas fa-chevron-right"></i></div>
         </section>
-
-        <section class="next-prev">
-            <a href="two-sisters.php">Previous</a>
-            <a href="moviebuff.php">Next</a>
-        </section>
+        
+        <button onclick="topFunction()" id="myBtn" class="top-btn" title="Go to top"><i class="fas fa-arrow-circle-up"></i> </button>
 
        <footer>
             <?php include 'footer.php';?>
         </footer>
     </main>
-    <script src="scripts/accordion.js"></script>
+    <script src="scripts/javascript.js"></script>
   
 </body>
 </html>

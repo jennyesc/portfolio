@@ -96,8 +96,8 @@
         </article>
 
         <section class="index-box-cont">
-            <div class="yellow-box"></div>
-            <div class="black-box"></div>
+            <div class="yellow-box"><p>Home</p></div>
+            <div class="black-box"><p>Go to projects</p></div>
         </section>
 
         <button onclick="topFunction()" id="myBtn" class="top-btn" title="Go to top"><i class="fas fa-arrow-circle-up"></i> </button>
@@ -106,6 +106,6 @@
             <?php include 'footer.php';?>
         </footer>
     </main>
-    <script src="scripts/top-button.js"></script>
+    <script src="scripts/javascript.js"></script>
 </body>
 </html>

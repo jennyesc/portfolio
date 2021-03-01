@@ -55,7 +55,7 @@
                 <p>For this project, I worked in a team of four and we created a custom WordPress theme 
                 using the Underscores  theme as a base.</p>
 
-                <p>Project timeline: Six Weeks </p>            
+                <p class="timeline">Project timeline: Six Weeks </p>            
             </div>
         </section>
 
@@ -68,7 +68,7 @@
             <p>Adobe XD, Adobe Photoshop, GitHub, Trello, VS Code.</p>
 
             <h3 class="key-heading">Development</h3>
-            <p>HTML5, CSS3/Sass, Gulp, JavaScript, WordPress, WooCommerce.</p>
+            <p class="last-par">HTML5, CSS3/Sass, Gulp, JavaScript, WordPress, WooCommerce.</p>
         </section>
 
         <section class="accordion-container">
@@ -77,25 +77,31 @@
 
         <section class="reflections">
         <h3>Reflections</h3>
-        <p>Coming Soon</p>
+        <p class="last-par">Coming Soon</p>
+       
+        <div class="btn-container">
+            <a class="red-btn faux-btn" href="#"> Coming Soon</a>
+        </div>
         
+        <div class="btn-container">
+            <a class="yellow-btn faux-btn" href="#"> GitHub</a>
+        </div>
+
         </section>
 
-        <section class="project-buttons">
-            <a href="#"> Live Site</a>
-            <a href="#"> GitHub</a>      
+       
+        <section class="indiv-box-cont">
+            <a class="blue-box" href="moviebuff.php"> <i class="fas fa-chevron-left"></i> Previous</div>
+            <a class="black-box" href="portfolio.php">Next <i class="fas fa-chevron-right"></i></div>
         </section>
-
-        <section class="next-prev">
-            <a href="moviebuff.php">Previous</a>
-            <a href="portfolio.php">Next</a>
-        </section>
-
-       <footer>
+        
+        <button onclick="topFunction()" id="myBtn" class="top-btn" title="Go to top"><i class="fas fa-arrow-circle-up"></i> </button>
+       
+        <footer>
             <?php include 'footer.php';?>
         </footer>
     </main>
-    <script src="scripts/accordion.js"></script>
+    <script src="scripts/javascript.js"></script>
   
 </body>
 </html>

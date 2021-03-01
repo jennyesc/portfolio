@@ -52,7 +52,7 @@
                 
                 <p>For this project, I worked in a team of two. We used the design mockups, which I created for our final project in our Design Tools module of the program.</p>
 
-                <p>Project timeline: Five Weeks </p>            
+                <p class="timeline">Project timeline: Five Weeks </p>            
             </div>
         </section>
 
@@ -72,32 +72,36 @@
         </section>
 
         <section class="reflections">
-        <h3>Reflections</h3>
-        <p>This was a great project to jump in feet first using React. We did get a bit of assistance from our instructor, which helped us 
-            a great deal during development. I plan to create another React app to grasp a better understanding of the funcitonality development. 
-            My focus was more on the styling and troubleshooting during the development process and my partner took on more of the functionality.
-        </p>
+            <h3>Reflections</h3>
+            <p>This was a great project to jump in feet first using React. We did get a bit of assistance from our instructor, which helped us 
+                a great deal during development. I plan to create another React app to grasp a better understanding of the funcitonality development. 
+                My focus was more on the styling and troubleshooting during the development process and my partner took on more of the functionality.
+            </p>
 
-        <p>Overall, I am proud of the end result and that we were able to create a site, which had all the functionality required, resembled the original 
-            mockup designs and is fully responsive. </p>
-        
+            <p class="last-par">Overall, I am proud of the end result and that we were able to create a site, which had all the functionality required, resembled the original 
+                mockup designs and is fully responsive. </p>
+            
+                <div class="btn-container">
+                <a class="red-btn faux-btn" href="https://jennyescobell.com/movieBuff/" target="_blank"> Coming Soon</a>
+            </div>
+            
+            <div class="btn-container">
+                <a class="yellow-btn faux-btn" href="https://github.com/jennyesc/movieBuff" target="_blank"> GitHub</a>
+            </div>
         </section>
 
-        <section class="project-buttons">
-            <a href="https://jennyescobell.com/movieBuff/" target="_blank"> Live Site</a>
-            <a href="https://github.com/jennyesc/movieBuff" target="_blank"> GitHub</a>      
+        <section class="indiv-box-cont">
+            <a class="blue-box" href="portfolio.php"> <i class="fas fa-chevron-left"></i> Previous</div>
+            <a class="black-box" href="two-sisters.php">Next <i class="fas fa-chevron-right"></i></div>
         </section>
-
-        <section class="next-prev">
-            <a href="portfolio.php">Previous</a>
-            <a href="two-sisters.php">Next</a>
-        </section>
-
-       <footer>
+       
+        <button onclick="topFunction()" id="myBtn" class="top-btn" title="Go to top"><i class="fas fa-arrow-circle-up"></i> </button>
+       
+        <footer>
             <?php include 'footer.php';?>
         </footer>
     </main>
-    <script src="scripts/accordion.js"></script>
+    <script src="scripts/javascript.js"></script>
   
 </body>
 </html>

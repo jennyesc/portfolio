@@ -1,4 +1,4 @@
-<button class="accordion accordion-title accordionTitle">Process</button>
+<button class="accordion accordion-title accordionTitle"><h3>Process</h3></button>
 <div class="panel">
 <h4>Research</h4>
         <p>We were provided with various examples for this project, which gave me some direction for the look and feel. <br>
@@ -14,8 +14,8 @@
     
 </div>
 
-<button class="accordion">Design</button>
-<div class="panel">
+<button class="accordion"> <h3>Design</h3></button>
+<div class="panel panel-dark">
   <p> The design is based on a dark movie theatre, but with the pop of neon pink for a nice contrasting colour. When I created the logo, I 
       really wanted to emulate the neon lights to give the design a little bit of a retro touch. </p>
   
@@ -25,10 +25,10 @@
   
     <section class="colour-container">
         <h4>Colour Palette </h4>
-        <div class="colour-1"> <p>#fc007a</p> </div>
-        <div class="colour-2"><p>#40132a</p></div>
-        <div class="colour-3"><p>#a3768c</p></div>
-        <div class="colour-4"><p>#220514</p></div>
+        <div class="colour mb-1"> <p>#fc007a</p> </div>
+        <div class="colour mb-2"><p>#40132a</p></div>
+        <div class="colour mb-3"><p>#a3768c</p></div>
+        <div class="colour mb-4"><p>#220514</p></div>
     </section>
 
     <section class="typography-container">
@@ -43,7 +43,7 @@
     </section>
 </div>
 
-<button class="accordion">Development & Launch</button>
+<button class="accordion"><h3>Development & Launch</h3></button>
 <div class="panel">
     <section class="mb-dev-container">
 
