@@ -4,19 +4,7 @@
 
 //Mixins
 
-//MC - Centres an element within margin
-
-// @mixin mc($isImage: false, $top: 0, $bottom: 0){
-//     @if($isImage == true){
-//         display: block;
-//     }
-//     margin: {
-//         top: $top;
-//         bottom: $bottom;
-//         left: auto;
-//         right: auto;
-//     }
-// }
+//MC - Centres an element 
 
 @mixin mc(){
     max-width: $siteWidth;
@@ -31,5 +19,10 @@
         @content;
     }
 }
-
+//box shadows
+@mixin box-shadow(){
+    -webkit-box-shadow: 1px 2px 3px 1px rgba(201,201,201,0.3);
+    -moz-box-shadow: 1px 2px 3px 1px rgba(201,201,201,0.3);
+    box-shadow: 1px 2px 3px 1px rgba(201,201,201,0.3);      
+}
 

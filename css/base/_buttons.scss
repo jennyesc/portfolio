@@ -1,0 +1,99 @@
+
+//Base Settings
+@use '../base/vars' as *;
+@use '../base/typography' as *;
+@use '../utilities/mixins' as *;
+@use '../utilities/functions' as *;
+
+//buttons and link blocks
+
+.btn-container{
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+
+    .faux-btn{
+        display: inline-block;
+        width: 200px;
+        border-radius: $border4;
+        text-align: center;
+        padding: 20px;
+        color: #fff;
+        font-weight: $medium;
+        font-size: 0.875rem;
+        @include box-shadow();
+    }
+
+    .red-btn{
+        background: $jne-red;
+    }
+
+    .blue-btn{
+        background: $jne-blue;
+    }
+
+    .yellow-btn{
+        background: $jne-yellow;
+        color: #000;
+    }
+}
+
+.view-all-btn{
+    background: #000;
+    text-align: center;
+    cursor: pointer;
+    
+    a{
+        color: #fff;
+        display: inline-block;
+        width: 100%;
+        padding: 25px;
+        font-weight: $bold;
+
+        &:hover{
+            font-weight: $light;
+            transition: 0.5s;
+        }
+    }
+}
+
+.about-btn{
+    background: $jne-blue;
+    text-align: center;
+
+    a{
+        color: #fff;
+        display: inline-block;
+        width: 100%;
+        padding: 25px;
+        font-weight: $bold;
+
+        &:hover{
+            font-weight: $light;
+            transition: 0.5s;
+        }
+    }
+}
+
+.top-btn{
+    display: none;
+    position: fixed;
+    bottom: 100px;
+    right: 10px;
+    z-index: 99;
+    outline: none;
+    color: $jne-red;
+    cursor: pointer;
+    font-size: 1.5rem;
+    background: none;
+    opacity: 0.8;
+    border: none;
+
+    .fas{
+        border: solid 2px $jne-white;
+        border-radius: 50%;
+        background: $jne-white;
+        font-size: 1.5rem;
+        transition: 1s;
+    }
+}

@@ -1,4 +1,5 @@
 @use '../base/vars' as *;
+@use '../utilities/mixins' as *;
 
 //styles for contact page
 
@@ -34,7 +35,7 @@
         line-height: 2rem;
 
         &:hover{
-            box-shadow: $shadow;
+           @include box-shadow();
         }
     }
     .box-text{

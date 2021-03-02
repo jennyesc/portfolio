@@ -1,5 +1,6 @@
 
 @use '../base/vars' as *;
+@use '../utilities/mixins' as *;
 
 //Styles for Accordion on project page
 
@@ -91,7 +92,7 @@
       margin: 8px;
       width: 100px;
       height: 100px;
-      box-shadow: $shadow;
+      @include box-shadow;
       border-radius: $border4;
       position: relative;
 

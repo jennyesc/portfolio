@@ -8,7 +8,7 @@
 
 
 //Page Styles
-@use 'pages/home';
+@use 'pages/index';
 @use 'pages/projects';
 @use 'pages/single-project';
 @use 'pages/about';
@@ -23,6 +23,7 @@
 @use 'pages/header';
 @use 'pages/nav';
 @use 'pages/footer';
+@use 'base/buttons';
 
 
 
