@@ -39,7 +39,7 @@
 
         <section class="current-proj">
             
-            <h2>Projects</h2>
+            <!-- <h2>Projects</h2> -->
             <picture>
                 <source media="(max-width: 500px)" srcset="images/two-sisters-mobile-500.jpg">
                 <source media="(max-width: 750px)" srcset="images/two-sisters-mobile-1000.jpg">

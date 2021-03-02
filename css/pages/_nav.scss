@@ -1,4 +1,5 @@
 @use '../base/vars' as *;
+@use '../utilities/mixins' as *;
 
 //styles for navigation
 
@@ -37,4 +38,64 @@ nav{
            }
         }
     }
+
+    @media (min-width: 650px){
+        @include mc;
+        position: relative;
+        background: none;
+        width: 50%;
+        justify-content: flex-end;
+        right: 0;
+       
+        ul{
+            margin: 0;
+            justify-content: flex-end;
+            width: auto;
+
+            a{
+                color: #000;
+                margin: 0;
+            }
+
+            .ani-link{
+                display: inline-block;
+                
+                &::after{
+                    content: '';
+                    display: block;
+                    width: 0;
+                    height: 3px;
+                    border-radius: 2px;
+                    background: $jne-red;
+                    transition: width .3s;
+                    margin-top: 10px;   
+                }
+            
+                &:hover{
+                    font-weight: $medium;
+                }
+
+                &:hover::after{
+                    width: 100%;
+                }    
+            }
+
+            .ani-blue{
+                &::after{
+                    background: $jne-blue;
+                }
+            }
+
+            .ani-yellow{
+                &::after{
+                    background: $jne-yellow;
+                }
+            }
+
+
+        }
+
+    }
+
+
 }

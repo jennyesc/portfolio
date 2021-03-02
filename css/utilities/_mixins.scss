@@ -1,17 +1,26 @@
+
+@use '../base/vars' as *;
+
+
 //Mixins
 
 //MC - Centres an element within margin
 
-@mixin mc($isImage: false, $top: 0, $bottom: 0){
-    @if($isImage == true){
-        display: block;
-    }
-    margin: {
-        top: $top;
-        bottom: $bottom;
-        left: auto;
-        right: auto;
-    }
+// @mixin mc($isImage: false, $top: 0, $bottom: 0){
+//     @if($isImage == true){
+//         display: block;
+//     }
+//     margin: {
+//         top: $top;
+//         bottom: $bottom;
+//         left: auto;
+//         right: auto;
+//     }
+// }
+
+@mixin mc(){
+    max-width: $siteWidth;
+    margin: 0 auto;
 }
 
 

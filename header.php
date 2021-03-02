@@ -8,8 +8,8 @@
     <nav class="mobile-nav">
         <ul class="nav-ul">
             <li class="nav-li"> <a class="ani-link" href="projects.php"> Projects </a> </li>
-            <li class="nav-li"> <a class="ani-link" href="about.php"> About </a> </li>
-            <li class="nav-li"> <a class="ani-link" href="contact.php"> Contact </a> </li>
+            <li class="nav-li"> <a class="ani-link ani-blue" href="about.php"> About </a> </li>
+            <li class="nav-li"> <a class="ani-link ani-yellow" href="contact.php"> Contact </a> </li>
         </ul>
     </nav>
 </div>
