@@ -334,9 +334,8 @@ main .index-box-cont .black-box {
   .project-wrapper .current-proj .proj-cur-textbox {
     width: 100%;
     max-width: 1000px;
-    padding-left: 20px;
+    padding-left: 20px 0;
     text-align: center;
-    height: 500px;
   }
   .project-wrapper .current-proj .proj-cur-textbox h3 {
     padding: 0;
@@ -364,6 +363,10 @@ main .index-box-cont .black-box {
     object-fit: cover;
     object-position: 0 -200px;
   }
+  .project-wrapper .portfolio-proj .portfolio-textbox {
+    width: 100%;
+    padding: 20px 0;
+  }
   .project-wrapper .react-proj {
     grid-column: 1/8;
     margin-top: 0;
@@ -383,6 +386,7 @@ main .index-box-cont .black-box {
   }
   .project-wrapper .react-proj .react-textbox {
     margin-top: 20px;
+    width: 100%;
   }
 }
 

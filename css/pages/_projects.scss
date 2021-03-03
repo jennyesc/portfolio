@@ -105,9 +105,9 @@
             .proj-cur-textbox{
                 width: 100%;
                 max-width: 1000px;
-                padding-left: 20px;
+                padding-left: 20px 0;
                 text-align: center;
-                height: 500px;                             
+                // height: 500px;                             
                 
                 h3{
                     padding: 0;
@@ -145,6 +145,11 @@
                 object-fit: cover;
                 object-position: 0 -200px;
             }
+
+            .portfolio-textbox{
+                width: 100%;
+                padding: 20px 0;
+            }
         }
 
         .react-proj{
@@ -167,6 +172,7 @@
 
             .react-textbox{
                 margin-top: 20px;
+                width: 100%;
             }
         }
 
