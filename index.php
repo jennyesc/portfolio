@@ -47,7 +47,7 @@
 
         <div class="wrapper-desktop">
             <section class="current-container">
-                <picture class="cur-img">
+                <picture>
                     <source media="(max-width: 500px)" srcset="images/two-sisters-mobile-500.jpg">
                     <source media="(max-width: 750px)" srcset="images/two-sisters-mobile-1000.jpg">
                     <source media="(min-width: 750px)" srcset="images/two-sisters-mobile-1200ls.jpg">
@@ -55,7 +55,6 @@
                 </picture>
 
                 <section class="cur-text-container">
-                
                         <h3>Current Project</h3>
                         <h4>Two Sisters Bakery</h4>
                         <p class="dev-par"> In Development</p>
@@ -66,7 +65,7 @@
                     <div class=btn-container>
                         <a class="faux-btn red-btn" href="two-sisters.php"> <span class="white-border"></span>  Go to Project</a>
                     </div>
-                 </section>
+                </section>
                  
                 <div class="view-all-btn">
                     <a href="projects.php" class="view-all-link"> <span class="black-border">View all projects</span> </a>
@@ -90,15 +89,16 @@
                     <p> In my spare time, you will find me either behind one of my sewing machines creating something 
                     new or exploring our beautiful landscape on my bicycle. </p>                
                 </div>
-            </section>
 
-            <div class="about-btn">
-                <a href="about.php" class="more-about"> <span class=blue-border>More about me</span> </a>
-            </div>
+                <div class="about-btn">
+                    <a href="about.php" class="more-about"> <span class=blue-border>More about me</span> </a>
+                </div>
+            
+                <div class="index-box-cont">
+                    <div class="yellow-box"></div>
+                    <div class="black-box"></div>
+                </div>
 
-            <section class="index-box-cont">
-                <div class="yellow-box"></div>
-                <div class="black-box"></div>
             </section>
     </div> <!-- end wrapper desktop  -->
     
