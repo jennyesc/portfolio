@@ -259,6 +259,11 @@ main .index-box-cont .black-box {
     text-align: center;
   }
 }
+@media (min-width: 650px) {
+  .project-wrapper .current-proj {
+    margin-top: 105px;
+  }
+}
 .project-wrapper .portfolio-proj {
   background: #f2f2f2;
 }
@@ -354,14 +359,13 @@ main .index-box-cont .black-box {
   }
   .project-wrapper .portfolio-proj {
     grid-column: 3/8;
-    margin-top: 125px;
-    height: 800px;
+    margin-top: 127px;
+    height: 797px;
   }
   .project-wrapper .portfolio-proj img {
     height: 500px;
-    width: 1500px;
+    width: 1400px;
     object-fit: cover;
-    object-position: 0 -200px;
   }
   .project-wrapper .portfolio-proj .portfolio-textbox {
     width: 100%;
@@ -375,18 +379,22 @@ main .index-box-cont .black-box {
     justify-content: center;
     align-items: center;
     padding: 0;
-    height: 520px;
+    min-height: 530px;
     margin-bottom: 20px;
+    border: 2px solid orange;
+    background: none;
   }
   .project-wrapper .react-proj img {
-    max-height: 520px;
+    min-height: 530px;
     width: 1000px;
     object-fit: cover;
-    border-right: 0.75rem solid #fff;
   }
   .project-wrapper .react-proj .react-textbox {
-    margin-top: 20px;
+    padding-top: 150px;
     width: 100%;
+    height: 100%;
+    margin-left: 0.75rem;
+    background: #f2f2f2;
   }
 }
 
