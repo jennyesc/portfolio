@@ -55,23 +55,22 @@
                 </picture>
 
                 <section class="cur-text-container">
-                    <h3>Current Project</h3>
-                    <h4>Two Sisters Bakery</h4>
-                    <p class="dev-par"> In Development</p>
-
-                    <h4 class="tools"> Tools</h4>
-                    <p class="tools-par"> Adobe XD | Adobe Photoshop <br> WordPress | WooCommerce</p>
+                
+                        <h3>Current Project</h3>
+                        <h4>Two Sisters Bakery</h4>
+                        <p class="dev-par"> In Development</p>
+               
+                        <h4 class="tools"> Tools</h4>
+                        <p class="tools-par"> Adobe XD | Adobe Photoshop <br> WordPress | WooCommerce</p>
 
                     <div class=btn-container>
-                        <a class="red-btn faux-btn" href="two-sisters.php"> Go to Project</a>
+                        <a class="faux-btn red-btn" href="two-sisters.php"> <span class="white-border"></span>  Go to Project</a>
                     </div>
-
-                </section>
-
-                <article class="view-all-btn">
-                    <a href="projects.php" class="view-all-link">View all projects</a>
-                </article>
-
+                 </section>
+                 
+                <div class="view-all-btn">
+                    <a href="projects.php" class="view-all-link"> <span class="black-border">View all projects</span> </a>
+                </div>
             </section>
 
             <section class="about-jenny-container">
@@ -85,6 +84,7 @@
 
                 <div class="about-text-container">
                     <h3> A little about me</h3>
+                    <div class="about-par"></div>
                     <p> I am a Front-End Developer and UX/UI Designer with a professional background in graphic design. 
                     I love being part of the creative process and seeing a well planned project come to life. </p>
                     <p> In my spare time, you will find me either behind one of my sewing machines creating something 
@@ -92,9 +92,9 @@
                 </div>
             </section>
 
-            <article class="about-btn">
-                <a href="about.php" class="more-about">More about me</a>
-            </article>
+            <div class="about-btn">
+                <a href="about.php" class="more-about"> <span class=blue-border>More about me</span> </a>
+            </div>
 
             <section class="index-box-cont">
                 <div class="yellow-box"></div>

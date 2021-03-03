@@ -25,6 +25,14 @@
             font-weight: $medium;
         }
     }
+
+    @media(min-width: $break1){
+        .project-summary{
+            padding: 20px 50px;
+        }
+    }
+    
+
 }
 
 .key-info{
@@ -46,6 +54,9 @@
     .last-par{
         margin-bottom: 0;
     }
+    @media(min-width: $break1){
+        padding: 20px 50px;
+    }
 }
 
 .reflections{
@@ -60,6 +71,9 @@
     p{
        margin-bottom: 15px;
     }
+    @media(min-width: $break1){
+        padding: 20px 50px;
+    }
 }
 
 .indiv-box-cont{
@@ -68,6 +82,7 @@
     grid-auto-rows: 50px;
     grid-column-gap: 15px;
     align-items: center;
+    margin-bottom: 15px;
     
     grid-template-areas: 
             "blue-box  black-box";

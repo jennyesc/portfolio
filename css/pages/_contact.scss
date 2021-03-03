@@ -2,70 +2,102 @@
 @use '../utilities/mixins' as *;
 
 //styles for contact page
+.wrpr-contact{
+    padding: 0;
+    // background: $jne-white;
+    height: 200px;
+   
+    .contact-intro{
+        @include mc;
+        margin: 75px auto 10px auto;
+        max-width: 650px;
+        padding: 50px 20px;
 
-.contact-intro{
-    background: $jne-white;
-    margin-top: 100px;
-    padding: 20px 15px;
-
-    h2{
-        font-size: 1.5rem;
-        font-weight: $bold;
-        text-transform: uppercase;
-        margin-bottom: 10px;
-    }
-}
-
-.contact-boxes{
-    display: grid;
-    align-items: center;
-    grid-template-columns: repeat (2, 2fr);
-    grid-auto-rows: 125px;
-    grid-gap: 10px;
-    grid-template-areas: 
-        "email      email"
-        "tweet      linkedin"
-        "call        call";
-
-    .box{
-        padding: 35px;
-        color: #fff;
-        text-align: center;
-        text-transform: uppercase;
-        line-height: 2rem;
-
-        &:hover{
-           @include box-shadow();
+        h2{
+            font-size: 1.25rem;
+            font-weight: $bold;
+            text-transform: uppercase;
+            margin-bottom: 10px;
         }
-    }
-    .box-text{
-        font-family: $roboto;
-        font-weight: $bold;
-        font-size: 1.25rem;
-    }
-    .fas, .fab{
-        font-size: 1.875rem;
-    }
 
-    .email{
-        grid-area: email;
-        background-color: $jne-red;
-    }
+        @media (min-width: 650px){
+            max-width: 850px;
+            margin-top: 120px;
+            // padding: 75px;
+        }
 
-    .fa-twitter{
-        grid-area: tweet;
-        background-color: $jne-white;
-        color: $jne-red;
     }
-
-    .fa-linkedin-in{
-        grid-area: linkedin;
-        background-color: $jne-yellow;
-        color:$jne-blue;
-    }
-
-    .fa-mobile{
-        grid-area: call;
-        background-color: $jne-blue;
+    @media (min-width: 650px){
+        height: 150px;
     }
 }
+
+    .contact-boxes{
+        @include mc;
+        background: #fff;
+        max-width: $siteWidth;
+        display: grid;
+        align-items: center;
+        grid-template-columns: repeat (2, 2fr);
+        grid-auto-rows: 125px;
+        grid-gap: 15px;
+        grid-template-areas: 
+            "email      email"
+            "tweet      linkedin"
+            "call        call";
+
+        .box{
+            padding: 35px;
+            color: #fff;
+            text-align: center;
+            text-transform: uppercase;
+            line-height: 2rem;
+
+            &:hover{
+            @include box-shadow();
+            }
+        }
+        .box-text{
+            font-family: $roboto;
+            font-weight: $bold;
+            font-size: 1.25rem;
+        }
+        .fas, .fab{
+            font-size: 1.875rem;
+        }
+
+        .email{
+            grid-area: email;
+            background-color: $jne-red;
+        }
+
+        .fa-twitter{
+            grid-area: tweet;
+            background-color: $jne-white;
+            color: $jne-red;
+        }
+
+        .fa-linkedin-in{
+            grid-area: linkedin;
+            background-color: $jne-yellow;
+            color:$jne-blue;
+        }
+
+        .fa-mobile{
+            grid-area: call;
+            background-color: $jne-blue;
+        }
+    
+        @media (min-width: 650px){
+            max-width: 850px;
+            margin-bottom: 120px;
+            grid-auto-rows: 90px;
+            grid-gap: 0;
+            grid-template-areas: 
+            "email      email"
+            "tweet      linkedin"
+            "tweet      linkedin"
+            "call        call";
+        }
+
+    }

@@ -15,7 +15,7 @@
 </div>
 
 <button class="accordion"> <h3>Design</h3></button>
-<div class="panel panel-dark">
+<div class="panel">
   <p> The design is based on a dark movie theatre, but with the pop of neon pink for a nice contrasting colour. When I created the logo, I 
       really wanted to emulate the neon lights to give the design a little bit of a retro touch. </p>
   

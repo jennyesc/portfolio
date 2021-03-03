@@ -36,55 +36,51 @@
     </header>
 
     <main>
-
-        <section class="current-proj">
+        <div class="project-wrapper">
+            <section class="current-proj">
+                <!-- <h2>Projects</h2> -->
+                <picture>
+                    <source media="(max-width: 500px)" srcset="images/two-sisters-mobile-500.jpg">
+                    <source media="(max-width: 750px)" srcset="images/two-sisters-mobile-1000.jpg">
+                    <source media="(min-width: 750px)" srcset="images/two-sisters-mobile-1200ls.jpg">
+                    <img src="images/two-sisters-mobile-1000.jpg" alt="two iPhones on a red background">
+                </picture>
             
-            <!-- <h2>Projects</h2> -->
-            <picture>
-                <source media="(max-width: 500px)" srcset="images/two-sisters-mobile-500.jpg">
-                <source media="(max-width: 750px)" srcset="images/two-sisters-mobile-1000.jpg">
-                <source media="(min-width: 750px)" srcset="images/two-sisters-mobile-1200ls.jpg">
-                <img src="images/two-sisters-mobile-1000.jpg" alt="two iPhones on a red background">
-			</picture>
-        
-            <div class="proj-cur-textbox">
-                <h3>Current Project</h3>
-                <h4>Two Sisters Bakery</h4>
-                <p class="dev-par"> In Development</p>
+                <div class="proj-cur-textbox">
+                    <h3>Current Project</h3>
+                    <h4>Two Sisters Bakery</h4>
+                    <p class="dev-par"> In Development</p>
 
-                <h4 class="tools"> Tools</h4>
-                <p class="tools-par"> Adobe XD | Adobe Photoshop <br> WordPress | WooCommerce</p>           
-                
-                <div class=btn-container>
-                    <a class="faux-btn red-btn" href="two-sisters.php"> Go to Project</a>
+                    <h4 class="tools"> Tools</h4>
+                    <p class="tools-par"> Adobe XD | Adobe Photoshop <br> WordPress | WooCommerce</p>           
+                    
+                    <div class=btn-container>
+                        <a class="faux-btn red-btn" href="two-sisters.php"> Go to Project</a>
+                    </div>
                 </div>
-            </div>
-        </section>
+            </section>
 
-        <section class="portfolio-proj">
-            <picture>
-                <source media="(max-width: 500px)" srcset="images/portfolio-500.jpg">
-                <source media="(max-width: 1000px)" srcset="images/portfolio-1000.jpg">
-                <source media="(min-width: 1000px)" srcset="images/portfolio-full.jpg">
-                <img src="images/portfolio-1000.jpg" alt="laptop and painting on blue background">
-			</picture>
-        
+            <section class="portfolio-proj">
+                <picture>
+                    <source media="(max-width: 500px)" srcset="images/portfolio-500.jpg">
+                    <source media="(max-width: 1000px)" srcset="images/portfolio-1000.jpg">
+                    <source media="(min-width: 1000px)" srcset="images/portfolio-full.jpg">
+                    <img src="images/portfolio-1000.jpg" alt="laptop and painting on blue background">
+                </picture>
+            
 
-            <div class="portfolio-textbox">
-                <h3>Portfolio Project</h3>
-                <p class="dev-par"> Read about the inspiration behind the design of my portfolio.</p>
+                <div class="portfolio-textbox">
+                    <h3>Portfolio Project</h3>
+                    <p class="dev-par"> Read about the inspiration behind the design of my portfolio.</p>
 
-                <h4 class="tools"> Tools</h4>
-                <p class="tools-par"> Adobe XD | Adobe Photoshop <br> HTML5 | CSS3/Sass | JavaScript | PHP</p>           
+                    <h4 class="tools"> Tools</h4>
+                    <p class="tools-par"> Adobe XD | Adobe Photoshop <br> HTML5 | CSS3/Sass | JavaScript | PHP</p>           
 
-                <div class=btn-container>
-                    <a class="blue-btn faux-btn" href="portfolio.php"> Go to Project</a>
+                    <div class=btn-container>
+                        <a class="blue-btn faux-btn" href="portfolio.php"> Go to Project</a>
+                    </div>            
                 </div>
-           
-            </div>
-
-           
-        </section>
+            </section>
 
         <section class="react-proj">
             <picture>
@@ -106,11 +102,12 @@
                 </div>
             </div>
         </section>
-
-        <section class="projects-box-cont">
-            <div class="blue-box"><p>Home</p></div>
-            <div class="red-box"><p> About</p></div>
-        </section>
+    </div>
+     
+    <div class="projects-box-cont">
+        <div class="blue-box"></div>
+        <div class="red-box"></div>
+    </div>
 
         <button onclick="topFunction()" id="myBtn" class="top-btn" title="Go to top"><i class="fas fa-arrow-circle-up"></i> </button>
        
