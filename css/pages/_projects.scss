@@ -33,9 +33,10 @@
 
         .portfolio-textbox{
             padding: $padding;
+            width: 300px;
             @media (min-width: $menuBreak){
-                margin: 0 auto;
-                width: 240px;
+                margin: 10px auto 0 auto;
+                width: 500px;
                 padding-left: 20px;
                 text-align: center;
             }
@@ -46,17 +47,26 @@
         display: grid;
         flex-wrap: wrap;
         align-items: center;
-        grid-row-gap: 15px;
         background: $jne-white;
 
         .react-textbox{
             padding: $padding;
             max-width: 500px;
-            
-            @media (min-width: $menuBreak){
-                margin: 0 auto;
+        }
+
+        @media(min-width: $menuBreak){
+            padding: 0;
+            align-items: flex-start;
+
+            img{    
+                margin-bottom: 0;
+                display: block;
+            }
+
+            .react-textbox{
+                margin: 0 auto 0 auto;
                 width: 240px;
-                padding-left: 20px;
+                padding: 20px 0 20px 0;
                 text-align: center;
             }
         }
@@ -81,7 +91,6 @@
         }
     }
     @media (min-width: $break2){
-        // @include mc;
         display: grid;
         grid-template-columns: repeat(6, 1fr);
         grid-template-rows: repeat(1, 1fr);
@@ -96,19 +105,22 @@
             height:800px;
             display: flex;
             flex-wrap: wrap;
-            align-items: center;
+            align-items: flex-start;
+            justify-content: flex-start;
 
             img{
                 height: 500px;
                 object-fit: cover;
                 width: 100%;
+                display: block;
             }
-            
+
             .proj-cur-textbox{
                 width: 100%;
                 max-width: 1000px;
-                padding-left: 20px 0;
-                text-align: center;                           
+                text-align: center; 
+                padding: 0;
+                margin-top: 42px;                        
                 
                 h3{
                     padding: 0;
@@ -133,14 +145,15 @@
 
         .portfolio-proj{
             grid-column: 3/8;
-            margin-top: 127px;
-            height: 797px;
+            margin-top: 125px;
+            height: 800px;
 
             img{
                 height: 500px;
                 width: 1400px;
                 object-fit: cover;
-                // object-position: 0 -200px;
+                object-position: center bottom;
+                display: block;
             }
 
             .portfolio-textbox{
@@ -159,13 +172,13 @@
             padding: 0;
             min-height: 530px;
             margin-bottom: 20px;
-            border: $orangeborder;
             background: none;
             
             img{
                 min-height: 530px;
                 width:1000px;
                 object-fit: cover;      
+                display: block;
             }
 
             .react-textbox{

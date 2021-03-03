@@ -269,11 +269,12 @@ main .index-box-cont .black-box {
 }
 .project-wrapper .portfolio-proj .portfolio-textbox {
   padding: 10px 10px 25px 15px;
+  width: 300px;
 }
 @media (min-width: 460px) {
   .project-wrapper .portfolio-proj .portfolio-textbox {
-    margin: 0 auto;
-    width: 240px;
+    margin: 10px auto 0 auto;
+    width: 500px;
     padding-left: 20px;
     text-align: center;
   }
@@ -282,7 +283,6 @@ main .index-box-cont .black-box {
   display: grid;
   flex-wrap: wrap;
   align-items: center;
-  grid-row-gap: 15px;
   background: #f2f2f2;
 }
 .project-wrapper .react-proj .react-textbox {
@@ -290,10 +290,18 @@ main .index-box-cont .black-box {
   max-width: 500px;
 }
 @media (min-width: 460px) {
+  .project-wrapper .react-proj {
+    padding: 0;
+    align-items: flex-start;
+  }
+  .project-wrapper .react-proj img {
+    margin-bottom: 0;
+    display: block;
+  }
   .project-wrapper .react-proj .react-textbox {
-    margin: 0 auto;
+    margin: 0 auto 0 auto;
     width: 240px;
-    padding-left: 20px;
+    padding: 20px 0 20px 0;
     text-align: center;
   }
 }
@@ -313,7 +321,7 @@ main .index-box-cont .black-box {
   background: #BF212e;
   grid-area: red-box;
 }
-@media (min-width: 1000px) {
+@media (min-width: 950px) {
   .project-wrapper {
     display: grid;
     grid-template-columns: repeat(6, 1fr);
@@ -329,18 +337,21 @@ main .index-box-cont .black-box {
     height: 800px;
     display: flex;
     flex-wrap: wrap;
-    align-items: center;
+    align-items: flex-start;
+    justify-content: flex-start;
   }
   .project-wrapper .current-proj img {
     height: 500px;
     object-fit: cover;
     width: 100%;
+    display: block;
   }
   .project-wrapper .current-proj .proj-cur-textbox {
     width: 100%;
     max-width: 1000px;
-    padding-left: 20px 0;
     text-align: center;
+    padding: 0;
+    margin-top: 42px;
   }
   .project-wrapper .current-proj .proj-cur-textbox h3 {
     padding: 0;
@@ -359,13 +370,15 @@ main .index-box-cont .black-box {
   }
   .project-wrapper .portfolio-proj {
     grid-column: 3/8;
-    margin-top: 127px;
-    height: 797px;
+    margin-top: 125px;
+    height: 800px;
   }
   .project-wrapper .portfolio-proj img {
     height: 500px;
     width: 1400px;
     object-fit: cover;
+    object-position: center bottom;
+    display: block;
   }
   .project-wrapper .portfolio-proj .portfolio-textbox {
     width: 100%;
@@ -381,13 +394,13 @@ main .index-box-cont .black-box {
     padding: 0;
     min-height: 530px;
     margin-bottom: 20px;
-    border: 2px solid orange;
     background: none;
   }
   .project-wrapper .react-proj img {
     min-height: 530px;
     width: 1000px;
     object-fit: cover;
+    display: block;
   }
   .project-wrapper .react-proj .react-textbox {
     padding-top: 150px;
