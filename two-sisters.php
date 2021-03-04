@@ -76,21 +76,19 @@
         </section>
 
         <section class="reflections">
-        <h3>Reflections</h3>
-        <p class="last-par">Coming Soon</p>
+            <h3>Reflections</h3>
+            <p class="last-par">Coming Soon</p>
+        </section>
        
         <div class="btn-container">
             <a class="red-btn faux-btn" href="#"> Coming Soon</a>
        
             <a class="yellow-btn faux-btn" href="#"> GitHub</a>
         </div>
-
-        </section>
-
        
         <section class="indiv-box-cont">
-            <a class="blue-box" href="moviebuff.php"> <i class="fas fa-chevron-left"></i> Previous</div>
-            <a class="black-box" href="portfolio.php">Next <i class="fas fa-chevron-right"></i></div>
+            <a class="blue-box" href="moviebuff.php"> <i class="fas fa-chevron-left"></i> Previous</a>
+            <a class="black-box" href="portfolio.php">Next <i class="fas fa-chevron-right"></i></a>
         </section>
         
         <button onclick="topFunction()" id="myBtn" class="top-btn" title="Go to top"><i class="fas fa-arrow-circle-up"></i> </button>

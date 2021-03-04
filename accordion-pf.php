@@ -12,7 +12,7 @@
         </p>
         
         <h4>Wireframes</h4>    
-        <div class="wireframes"> </button>
+        <div class="wireframes"> 
             <h5>Home Page</h5>
             <img src="images/mobile-home.jpg" alt="wireframe of home page">
             <img src="images/mobile-home-2.jpg" alt="wireframe of home page">
@@ -32,8 +32,6 @@
         </div>
 </div>
     
-</div>
-
 <button class="accordion"><h3>Design</h3></button>
 <div class="panel">
   <p>As mentioned in the above summary, my designs choices are based on the paintings by Piet Mondrian. 
@@ -79,7 +77,7 @@
     </section>
 </div>
 
-<button class="accordion"><h3>Development & Launch</h3></button>
+<button class="accordion"><h3>Process</h3></button>
 <div class="panel">
     <section class="pf-dev-cont">
         <h4>Development</h4>
