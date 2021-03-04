@@ -50,11 +50,11 @@
             <a class="fas fa-mobile box" href="tel:6047906588">  <span class="box-text"> Call</span>  </a>       
         </div>
      
-        
-        <footer>
+    </main>
+
+    <footer>
             <?php include 'footer.php';?>
         </footer>
-    </main>
     <script src="scripts/javascript.js"></script>
 </body>
 </html>

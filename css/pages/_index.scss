@@ -149,6 +149,7 @@
                 height: 100%;
                 width: 100%;
                 grid-area: cur-text;
+                padding-top: 25px;
             }
 
             .view-all-btn{
@@ -158,7 +159,7 @@
 
         .about-jenny-container{
             width: 100%;
-            background: #fff;
+            // background: $jne-white;
             display: grid;
             grid-template-columns: repeat(4, 1fr);
             grid-auto-rows: 100px;

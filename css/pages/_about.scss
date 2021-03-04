@@ -2,107 +2,125 @@
 @use '../utilities/mixins' as *;
 
 //styles for about page
+.about-wrapper{
 
-.about-intro-1{
-    margin-top: 100px;
-    position: relative;
-    
-    .pic-cont{
-        margin: 0 auto;
-              
-        img{
-            max-height: 450px;
-            width: auto;   
-            object-fit: cover; 
-        }
-    }
-   
-    .about-text{
-        padding: 15px;
-        max-width: 100%;
-        h3{
-            padding: 20px 0 5px 15px;
-        }
 
-        p{
-            padding: 20px 15px 5px 15px;
-            line-height: 1.4rem;
-            max-width: 550px;
-            display: inline-block;
-        }
-
-        @media (min-width: 520px){
-            margin: 0 auto;
-            width: 650px;
-            position: relative;
-
-            h3{
-                position: absolute;
-                top: -150px;
-                
-            }
-        }
-    }
-
-    @media (min-width: 450px){
-        margin-top: 120px;
-
-        .pic-cont{
-            img{
-                margin-left: 50%; 
-                max-height: 250px;
-            }
-        }
-    }
-}
-
-.toolkit{
-    background: $jne-blue;
-    .toolkit-container{
-        @include mc;
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-around;
-        padding: $padding;
-        color: #fff;
-        max-width: 600px;
-    }
-    
-    h3{
-        width: 100%;
-        margin-bottom: 25px;
-        margin-top: 10px;
-        text-align: center;
-        border-bottom: 1px solid darken($jne-blue, 5%);
-        padding-bottom: 15px;
-        border-radius: $border4;
-    }
-
-    ul{ 
-        line-height: 1.6rem;
+    .about-intro-1{
+        margin-top: 100px;
+        position: relative;
         
-        .li-heading{
-            font-weight: $bold;
-            margin-bottom: 5px;
-            font-size: 1.05rem;
-        }
-        .li{
-            padding: 10px 0;
-            display: inline-block;
-        }
-        .adobe{
-            margin-left: 10px;
-            font-weight: $light;
-        }    
-    }
-    @media(min-width: $break1){
-
-        .toolkit-container{
-            padding: 20px 20px 55px 17px;
-            h3{
-                width: 100%;
-                padding: 4px 75px 15px 75px; 
+        .pic-cont{
+            margin: 0 auto;
+            height: 100%;
+            width: auto;
+            img{
+                // max-height: 450px;
+                width: auto;   
+                object-fit: cover; 
             }
-        }    
-    }       
-}
+        }
+    .welcome-container{
+        display: none;
+    }
+        .about-text{
+            padding: 15px;
+            max-width: 100%;
+            h3{
+                padding: 20px 0 5px 15px;
+            }
+
+            p{
+                padding: 20px 15px 5px 15px;
+                line-height: 1.4rem;
+                max-width: 550px;
+                display: inline-block;
+            }
+
+            
+        }
+    }
+
+    .toolkit{
+        background: $jne-blue;
+        .toolkit-container{
+            @include mc;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            padding: $padding;
+            color: #fff;
+            max-width: 600px;
+        }
+
+        h3{
+            width: 100%;
+            margin-bottom: 25px;
+            margin-top: 10px;
+            text-align: center;
+            border-bottom: 1px solid darken($jne-blue, 5%);
+            padding-bottom: 15px;
+            border-radius: $border4;
+        }
+
+        ul{ 
+            line-height: 1.6rem;
+            
+            .li-heading{
+                font-weight: $bold;
+                margin-bottom: 5px;
+                font-size: 1.05rem;
+            }
+            .li{
+                padding: 10px 0;
+                display: inline-block;
+            }
+            .adobe{
+                margin-left: 10px;
+                font-weight: $light;
+            }    
+        }  
+
+    }
+
+    @media(min-width: $break1){
+        @include mc;
+        max-width: 800px;
+        margin-top: 110px;
+
+        .about-intro-1{
+            margin: 0;
+            display: grid;
+            grid-template-columns: repeat(4,2fr);
+            grid-template-rows: repeat(1, 1fr);
+            grid-gap: 0.75rem;
+            grid-template-areas: 
+                "about-text   about-text   img          img  "
+                "all-link   all-link       all-link    all-link  "
+                ;
+
+                picture{
+                    grid-area: img;
+                    margin: 0;
+                    padding: 0;
+
+                    img{
+                        display: block;
+                        object-fit: cover;
+                        max-height: 100%;
+                    }
+                }
+                .welcome-container{
+                    display: none;
+                }
+                .about-text{
+                    grid-area: about-text;
+                }
+
+                .view-all-btn{
+                    grid-area: all-link;
+                }
+        }
+        
+    }
+    
+}//end about wrapper

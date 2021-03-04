@@ -36,65 +36,71 @@
     </header>
 
     <main>
-
-        <section class="about-intro-1">
-            <picture class="pic-cont">
-                <source media="(max-width: 450px)" srcset="images/jenny-web.jpg">
-                <source media="(min-width: 450px)" srcset="images/jenny-web-full.jpg">
-                <img src="images/jenny-web-full.jpg" alt="Jenny Escobell">
-            </picture>    
-        
-            <div class="about-text">
-                <h3>Hello and welcome!</h3>
-
-                <p>I am a Front-end Web Developer and UX/UI Designer 
-                with a passion for the creative process and seeing a well planned project come to life. </p>
-
-                <p>With practical and professional industry experience, I have gained a strong foundation of industry standards and best practises. 
-                I always tell people that I love to listen to hear what you are not saying. I am team oriented, love to collaborate and appreciate feedback 
-                with the mindset to continuously grow as a developer and designer.</p>
-            </div>
+        <div class="about-wrapper">
+            <section class="about-intro-1 grid">
+                <picture class="pic-cont">
+                    <source media="(max-width: 450px)" srcset="images/jenny-web.jpg">
+                    <source media="(min-width: 450px)" srcset="images/jenny-web-full.jpg">
+                    <img src="images/jenny-web-full.jpg" alt="Jenny Escobell">
+                </picture>    
             
-            <div class="btn-container">
-                <a class="red-btn faux-btn" href="projects.php"> View Projects</a>
-        
-                <a class="yellow-btn faux-btn" href="#">Graphic Design Samples</a>
-            </div>
-        
-        </section>
+                <!-- <h2 class="welcome-container grid-image">Hello and Welcome!</h2> -->
+                
+                <section class="about-text">
+                    <h3>Hello and welcome!</h3>
+                        
+                    <p>I am a Front-end Web Developer and UX/UI Designer 
+                    with a passion for the creative process and seeing a well planned project come to life. </p>
 
-        <section class="toolkit">
-            <div class="toolkit-container">
-                <h3>Toolkit</h3>
-                <ul class="design-tools">
-                    <li class="li-heading">Design</li>
-                    <li>Adobe</li>
-                    <li class="adobe">XD</li>
-                    <li class="adobe">Photoshop</li>
-                    <li class="adobe">Illustrator</li>
-                    <li class="adobe last-li">InDesign</li>
-                    <li>Figma</li>
-                    <li>InVision</li>
-                </ul>
+                    <p>With practical and professional industry experience, I have gained a strong foundation of industry standards and best practises. 
+                    I always tell people that I love to listen to hear what you are not saying. I am team oriented, love to collaborate and appreciate feedback 
+                    with the mindset to continuously grow as a developer and designer.</p>
+                </section>
+                
+                <div class="view-all-btn">
+                        <a href="projects.php" class="view-all-link"> <span class="black-border">View all projects</span> </a>
+                </div>
 
-                <ul class="dev-tools">
-                    <li class="li-heading">Development</li>
-                    <li>HTML5</li>
-                    <li>CSS3/Sass</li>
-                    <li>WordPress</li>
-                    <li>WooCommerce</li>
-                    <li>JavaScript</li>
-                    <li>PHP</li>
-                    <li>GitHub</li>
-                </ul>
-            </div>
-        </section>
-        
+              
+            </section>
+
+            <section class="grid-box2 grid">
+            <div class="gd-button">
+                        <a href="#" class="view-all-link"> <span class="yellow-border">Graphic Design | Coming soon</span> </a>
+                </div>
+                <section class="toolkit">
+                    <div class="toolkit-container">
+                        <h3>Toolkit</h3>
+                        <ul class="design-tools">
+                            <li class="li-heading">Design</li>
+                            <li>Adobe</li>
+                            <li class="adobe">XD</li>
+                            <li class="adobe">Photoshop</li>
+                            <li class="adobe">Illustrator</li>
+                            <li class="adobe last-li">InDesign</li>
+                            <li>Figma</li>
+                            <li>InVision</li>
+                        </ul>
+
+                        <ul class="dev-tools">
+                            <li class="li-heading">Development</li>
+                            <li>HTML5</li>
+                            <li>CSS3/Sass</li>
+                            <li>WordPress</li>
+                            <li>WooCommerce</li>
+                            <li>JavaScript</li>
+                            <li>PHP</li>
+                            <li>GitHub</li>
+                        </ul>
+                    </div>
+                </section>
+            </section>
+        </div>
+      
         <button onclick="topFunction()" id="myBtn" class="top-btn" title="Go to top"><i class="fas fa-arrow-circle-up"></i> </button>
         <footer>
             <?php include 'footer.php';?>
         </footer>
-    
     </main>
     <script src="scripts/javascript.js"></script>
 </body>

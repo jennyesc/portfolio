@@ -270,13 +270,13 @@ a {
     height: 100%;
     width: 100%;
     grid-area: cur-text;
+    padding-top: 25px;
   }
   .wrapper-desktop .current-container .view-all-btn {
     grid-area: more-link;
   }
   .wrapper-desktop .about-jenny-container {
     width: 100%;
-    background: #fff;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-auto-rows: 100px;
@@ -365,11 +365,14 @@ a {
 }
 @media (min-width: 460px) {
   .project-wrapper .portfolio-proj .portfolio-textbox {
-    margin: 10px auto 0 auto;
+    margin: 9px auto 0 auto;
     width: 500px;
-    padding-left: 20px;
+    margin-left: 35px;
     text-align: center;
   }
+}
+.project-wrapper .portfolio-proj .portfolio-textbox .blue-btn {
+  padding: 10px 20px 10px;
 }
 .project-wrapper .react-proj {
   display: grid;
@@ -616,9 +619,6 @@ a {
   }
 }
 
-.accordion-container {
-  background: #BF212e;
-}
 @media (min-width: 950px) {
   .accordion-container {
     max-width: 1200px;
@@ -699,56 +699,39 @@ a {
   }
 }
 
-.about-intro-1 {
+.about-wrapper .about-intro-1 {
   margin-top: 100px;
   position: relative;
 }
-.about-intro-1 .pic-cont {
+.about-wrapper .about-intro-1 .pic-cont {
   margin: 0 auto;
+  height: 100%;
+  width: auto;
 }
-.about-intro-1 .pic-cont img {
-  max-height: 450px;
+.about-wrapper .about-intro-1 .pic-cont img {
   width: auto;
   object-fit: cover;
 }
-.about-intro-1 .about-text {
+.about-wrapper .about-intro-1 .welcome-container {
+  display: none;
+}
+.about-wrapper .about-intro-1 .about-text {
   padding: 15px;
   max-width: 100%;
 }
-.about-intro-1 .about-text h3 {
+.about-wrapper .about-intro-1 .about-text h3 {
   padding: 20px 0 5px 15px;
 }
-.about-intro-1 .about-text p {
+.about-wrapper .about-intro-1 .about-text p {
   padding: 20px 15px 5px 15px;
   line-height: 1.4rem;
   max-width: 550px;
   display: inline-block;
 }
-@media (min-width: 520px) {
-  .about-intro-1 .about-text {
-    margin: 0 auto;
-    width: 650px;
-    position: relative;
-  }
-  .about-intro-1 .about-text h3 {
-    position: absolute;
-    top: -150px;
-  }
-}
-@media (min-width: 450px) {
-  .about-intro-1 {
-    margin-top: 120px;
-  }
-  .about-intro-1 .pic-cont img {
-    margin-left: 50%;
-    max-height: 250px;
-  }
-}
-
-.toolkit {
+.about-wrapper .toolkit {
   background: #304673;
 }
-.toolkit .toolkit-container {
+.about-wrapper .toolkit .toolkit-container {
   max-width: 1200px;
   margin: 0 auto;
   display: flex;
@@ -758,7 +741,7 @@ a {
   color: #fff;
   max-width: 600px;
 }
-.toolkit h3 {
+.about-wrapper .toolkit h3 {
   width: 100%;
   margin-bottom: 25px;
   margin-top: 10px;
@@ -767,35 +750,60 @@ a {
   padding-bottom: 15px;
   border-radius: 4px;
 }
-.toolkit ul {
+.about-wrapper .toolkit ul {
   line-height: 1.6rem;
 }
-.toolkit ul .li-heading {
+.about-wrapper .toolkit ul .li-heading {
   font-weight: 700;
   margin-bottom: 5px;
   font-size: 1.05rem;
 }
-.toolkit ul .li {
+.about-wrapper .toolkit ul .li {
   padding: 10px 0;
   display: inline-block;
 }
-.toolkit ul .adobe {
+.about-wrapper .toolkit ul .adobe {
   margin-left: 10px;
   font-weight: 300;
 }
 @media (min-width: 650px) {
-  .toolkit .toolkit-container {
-    padding: 20px 20px 55px 17px;
+  .about-wrapper {
+    max-width: 1200px;
+    margin: 0 auto;
+    max-width: 800px;
+    margin-top: 110px;
   }
-  .toolkit .toolkit-container h3 {
-    width: 100%;
-    padding: 4px 75px 15px 75px;
+  .about-wrapper .about-intro-1 {
+    margin: 0;
+    display: grid;
+    grid-template-columns: repeat(4, 2fr);
+    grid-template-rows: repeat(1, 1fr);
+    grid-gap: 0.75rem;
+    grid-template-areas: "about-text   about-text   img          img  " "all-link   all-link       all-link    all-link  ";
+  }
+  .about-wrapper .about-intro-1 picture {
+    grid-area: img;
+    margin: 0;
+    padding: 0;
+  }
+  .about-wrapper .about-intro-1 picture img {
+    display: block;
+    object-fit: cover;
+    max-height: 100%;
+  }
+  .about-wrapper .about-intro-1 .welcome-container {
+    display: none;
+  }
+  .about-wrapper .about-intro-1 .about-text {
+    grid-area: about-text;
+  }
+  .about-wrapper .about-intro-1 .view-all-btn {
+    grid-area: all-link;
   }
 }
 
 .wrpr-contact {
   padding: 0;
-  height: 200px;
 }
 .wrpr-contact .contact-intro {
   max-width: 1200px;
@@ -838,7 +846,6 @@ a {
   padding: 35px;
   color: #fff;
   text-align: center;
-  text-transform: uppercase;
   line-height: 2rem;
 }
 .contact-boxes .box:hover {
@@ -874,10 +881,10 @@ a {
 }
 @media (min-width: 650px) {
   .contact-boxes {
-    max-width: 850px;
-    margin-bottom: 120px;
+    max-width: 650px;
     grid-auto-rows: 90px;
     grid-gap: 0;
+    height: 65vh;
     grid-template-areas: "email      email" "tweet      linkedin" "tweet      linkedin" "call        call";
   }
 }
@@ -1340,8 +1347,8 @@ footer p {
 }
 .btn-container .faux-btn {
   display: inline-block;
-  width: 500px;
-  max-width: 300px;
+  width: 300px;
+  max-width: 500px;
   border-radius: 4px;
   text-align: center;
   padding: 12px;
@@ -1399,10 +1406,10 @@ footer p {
 }
 .view-all-btn .black-border {
   padding: 20px 40px;
-  border-radius: 10px;
   width: 550px;
-  background: linear-gradient(145deg, #151515, #121212);
-  box-shadow: 12px 12px 23px #0d0d0d, -12px -12px 23px #1b1b1b;
+  border-radius: 5px;
+  background: linear-gradient(145deg, #151515, #151515);
+  box-shadow: 8px 8px 16px #0a0a0a, -8px -8px 16px #141414;
 }
 
 .about-btn {
@@ -1414,15 +1421,39 @@ footer p {
   color: #fff;
   display: inline-block;
   width: 100%;
-  padding: 40px;
+  padding: 42px;
   font-weight: 700;
   text-transform: uppercase;
 }
 .about-btn .blue-border {
-  padding: 20px 56px;
-  border-radius: 10px;
+  padding: 20px 40px;
+  border-radius: 7px;
   background: linear-gradient(145deg, #334b7b, #2b3f68);
-  box-shadow: 13px 13px 14px #26385c, -13px -13px 14px #3a548a;
+  box-shadow: 9px 9px 18px #2b3e66, -9px -9px 18px #354e80;
+  border-radius: 7px;
+  background: linear-gradient(145deg, #334b7b, #2b3f68);
+  box-shadow: 9px 9px 18px #2b3e66, -9px -9px 18px #354e80;
+}
+
+.gd-button {
+  background: #f2b90c;
+  text-align: center;
+  margin: 15px 0;
+}
+.gd-button a {
+  color: black;
+  display: inline-block;
+  width: 100%;
+  padding: 40px 10px;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 0.875rem;
+}
+.gd-button .yellow-border {
+  padding: 20px 8px;
+  border-radius: 10px;
+  background: linear-gradient(145deg, #ffc60d, #daa70b);
+  box-shadow: 9px 9px 18px #d7a50b, -9px -9px 18px #ffcd0d;
 }
 
 .top-btn {

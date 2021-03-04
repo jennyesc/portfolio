@@ -15,8 +15,8 @@
 
     .faux-btn{
         display: inline-block;
-        width: 500px;
-        max-width: 300px;
+        width: 300px;
+        max-width: 500px;
         border-radius: $border4;
         text-align: center;
         padding: 12px;
@@ -80,11 +80,11 @@
 
     .black-border{
         padding: 20px 40px;
-        border-radius: 10px;
         width: 550px;
-        background: linear-gradient(145deg, #151515, #121212);
-        box-shadow:  12px 12px 23px #0d0d0d,
-        -12px -12px 23px #1b1b1b;
+        border-radius: 5px;
+        background: linear-gradient(145deg, #151515, #151515);  
+        box-shadow:  8px 8px 16px #0a0a0a,
+        -8px -8px 16px #141414;
     }
 }
 
@@ -97,17 +97,44 @@
         color: #fff;
         display: inline-block;
         width: 100%;
-        padding: 40px;
+        padding: 42px;
         font-weight: $bold;
         text-transform: uppercase;
     }
 
     .blue-border{
-        padding:20px 56px;
-        border-radius: 10px;
+        padding: 20px 40px;
+        border-radius: 7px;
         background: linear-gradient(145deg, #334b7b, #2b3f68);
-        box-shadow:  13px 13px 14px #26385c,
-        -13px -13px 14px #3a548a;
+        box-shadow:  9px 9px 18px #2b3e66,
+             -9px -9px 18px #354e80;
+        border-radius: 7px;
+        background: linear-gradient(145deg, #334b7b, #2b3f68);
+        box-shadow:  9px 9px 18px #2b3e66,
+        -9px -9px 18px #354e80;
+    }
+}
+
+.gd-button{
+    background: $jne-yellow;
+    text-align: center;
+    margin: 15px 0;
+    a{
+        color: rgb(0, 0, 0);
+        display: inline-block;
+        width: 100%;
+        padding: 40px 10px;
+        font-weight: $bold;
+        text-transform: uppercase;
+        font-size: 0.875rem;
+    }
+
+    .yellow-border{
+        padding: 20px 8px;
+        border-radius: 10px;
+        background: linear-gradient(145deg, #ffc60d, #daa70b);
+        box-shadow:  9px 9px 18px #d7a50b,
+         -9px -9px 18px #ffcd0d;
     }
 }
 

@@ -5,7 +5,7 @@
 .wrpr-contact{
     padding: 0;
     // background: $jne-white;
-    height: 200px;
+   
    
     .contact-intro{
         @include mc;
@@ -45,12 +45,12 @@
             "email      email"
             "tweet      linkedin"
             "call        call";
+        
 
         .box{
             padding: 35px;
             color: #fff;
             text-align: center;
-            text-transform: uppercase;
             line-height: 2rem;
 
             &:hover{
@@ -89,15 +89,16 @@
         }
     
         @media (min-width: 650px){
-            max-width: 850px;
-            margin-bottom: 120px;
+            max-width: 650px;
             grid-auto-rows: 90px;
             grid-gap: 0;
+            height: 65vh;
             grid-template-areas: 
             "email      email"
             "tweet      linkedin"
             "tweet      linkedin"
-            "call        call";
+            "call        call";  
+                     
         }
 
     }

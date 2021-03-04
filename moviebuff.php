@@ -82,7 +82,7 @@
                 mockup designs and is fully responsive. </p>
             
                 <div class="btn-container">
-                <a class="red-btn faux-btn" href="https://jennyescobell.com/movieBuff/" target="_blank"> Coming Soon</a>
+                <a class="red-btn faux-btn" href="https://jennyescobell.com/movieBuff/" target="_blank"> Live Site</a>
 
                 <a class="yellow-btn faux-btn" href="https://github.com/jennyesc/movieBuff" target="_blank"> GitHub</a>
                 </div>

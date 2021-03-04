@@ -35,10 +35,14 @@
             padding: $padding;
             width: 300px;
             @media (min-width: $menuBreak){
-                margin: 10px auto 0 auto;
+                margin: 9px auto 0 auto;
                 width: 500px;
-                padding-left: 20px;
+                margin-left: 35px;
                 text-align: center;
+            }
+
+            .blue-btn{
+                padding: 10px 20px 10px;
             }
         }
     }
@@ -110,10 +114,10 @@
 
             picture{
                 img{
-                    height: 500px;
-                    object-fit: cover;
-                    width: 100%;
-                    display: block;
+                height: 500px;
+                object-fit: cover;
+                width: 100%;
+                display: block;
                 }
             }
             

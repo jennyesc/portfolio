@@ -134,7 +134,7 @@
 }//end key info
 
 .accordion-container{
-    background: $jne-red;
+    
     @media(min-width: $break2){
         @include mc;
         max-width: $siteWidth;
