@@ -39,7 +39,7 @@
     <main>
 
         <section class="project-intro">
-            <picture>
+            <picture class="portfolio-header">
                 <source media="(max-width: 500px)" srcset="images/portfolio-500.jpg">
                 <source media="(max-width: 1000px)" srcset="images/portfolio-1000.jpg">
                 <source media="(min-width: 1000px)" srcset="images/portfolio-full.jpg">
@@ -83,9 +83,6 @@
         
         <div class="btn-container">
             <a class="red-btn faux-btn" href="#"> Coming Soon</a>
-        </div>
-        
-        <div class="btn-container">
             <a class="yellow-btn faux-btn" href="#"> GitHub</a>
         </div>
 

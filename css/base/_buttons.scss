@@ -10,6 +10,7 @@
 .btn-container{
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
     margin-top: 15px;
 
     .faux-btn{
@@ -25,6 +26,7 @@
         margin: 15px 0 20px 0;
         @include box-shadow();
         text-transform: uppercase;
+        line-height: 1.5rem;
     }
 
     .red-btn{
@@ -45,7 +47,19 @@
         border-right: $jne-yellow 0.031rem solid;
         border-bottom: $jne-yellow 0.031rem solid;
     }
-    
+    @media(min-width: $break1){
+        flex-wrap: nowrap;
+        justify-content: space-around;
+        max-width: 600px;
+        margin: 0 auto;
+        
+        .red-btn{
+            margin-right: 20px;
+        }
+
+        
+        
+    }
 }
 
 .view-all-btn{

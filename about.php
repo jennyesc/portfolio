@@ -57,36 +57,37 @@
             
             <div class="btn-container">
                 <a class="red-btn faux-btn" href="projects.php"> View Projects</a>
-            </div>
-            <div class="btn-container">
+        
                 <a class="yellow-btn faux-btn" href="#">Graphic Design Samples</a>
             </div>
         
         </section>
 
         <section class="toolkit">
-            <h3>Toolkit</h3>
-            <ul class="design-tools">
-                <li class="li-heading">Design</li>
-                <li>Adobe</li>
-                <li class="adobe">XD</li>
-                <li class="adobe">Photoshop</li>
-                <li class="adobe">Illustrator</li>
-                <li class="adobe last-li">InDesign</li>
-                <li>Figma</li>
-                <li>InVision</li>
-            </ul>
+            <div class="toolkit-container">
+                <h3>Toolkit</h3>
+                <ul class="design-tools">
+                    <li class="li-heading">Design</li>
+                    <li>Adobe</li>
+                    <li class="adobe">XD</li>
+                    <li class="adobe">Photoshop</li>
+                    <li class="adobe">Illustrator</li>
+                    <li class="adobe last-li">InDesign</li>
+                    <li>Figma</li>
+                    <li>InVision</li>
+                </ul>
 
-            <ul class="dev-tools">
-                <li class="li-heading">Development</li>
-                <li>HTML5</li>
-                <li>CSS3/Sass</li>
-                <li>WordPress</li>
-                <li>WooCommerce</li>
-                <li>JavaScript</li>
-                <li>PHP</li>
-                <li>GitHub</li>
-            </ul>
+                <ul class="dev-tools">
+                    <li class="li-heading">Development</li>
+                    <li>HTML5</li>
+                    <li>CSS3/Sass</li>
+                    <li>WordPress</li>
+                    <li>WooCommerce</li>
+                    <li>JavaScript</li>
+                    <li>PHP</li>
+                    <li>GitHub</li>
+                </ul>
+            </div>
         </section>
         
         <button onclick="topFunction()" id="myBtn" class="top-btn" title="Go to top"><i class="fas fa-arrow-circle-up"></i> </button>

@@ -81,9 +81,7 @@
        
         <div class="btn-container">
             <a class="red-btn faux-btn" href="#"> Coming Soon</a>
-        </div>
-        
-        <div class="btn-container">
+       
             <a class="yellow-btn faux-btn" href="#"> GitHub</a>
         </div>
 

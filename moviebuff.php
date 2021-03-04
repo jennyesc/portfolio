@@ -39,7 +39,7 @@
     <main>
 
         <section class="project-intro">
-            <picture>
+            <picture class="moviebuff-header">
                 <source media="(max-width: 500px)" srcset="images/moviebuff-500.jpg">
                 <source media="(max-width: 800px)" srcset="images/moviebuff-1000.jpg">
                 <source media="(min-width: 800px)" srcset="images/moviebuff-full.jpg">
@@ -83,11 +83,9 @@
             
                 <div class="btn-container">
                 <a class="red-btn faux-btn" href="https://jennyescobell.com/movieBuff/" target="_blank"> Coming Soon</a>
-            </div>
-            
-            <div class="btn-container">
+
                 <a class="yellow-btn faux-btn" href="https://github.com/jennyesc/movieBuff" target="_blank"> GitHub</a>
-            </div>
+                </div>
         </section>
 
         <section class="indiv-box-cont">
