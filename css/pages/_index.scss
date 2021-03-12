@@ -16,6 +16,7 @@
         height: 80%;
         display: flex;
         align-items: center;
+        
 
         h2{
             font-size: 1.875rem;
@@ -24,6 +25,20 @@
 
             .red-block{
                 border-bottom: 3px solid $jne-red;
+                // background: $jne-red;
+                // content: '';
+                // display: block;
+                // height: 15px;
+                // position: absolute;
+                // bottom: 0;
+                // left: 0;
+                // width: 0%;
+                // z-index: -1;
+                // animation: line;
+                // animation-duration: 3s;
+                // animation-delay: 1s;
+                // animation-fill-mode: forwards;
+                
             }
 
             .blue-block{
