@@ -82,7 +82,6 @@
         <p class="last-par">Coming Soon</p>
         
         <div class="btn-container">
-            <a class="red-btn faux-btn" href="#"> Coming Soon</a>
             <a class="yellow-btn faux-btn" href="#"> GitHub</a>
         </div>
 

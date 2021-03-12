@@ -15,6 +15,7 @@
         .proj-cur-textbox{
             padding: $padding;
             max-width: 550px;
+            
 
             @media (min-width: $menuBreak){
                 margin: 0 auto;
@@ -33,11 +34,9 @@
 
         .portfolio-textbox{
             padding: $padding;
-            width: 300px;
+            
             @media (min-width: $menuBreak){
                 margin: 9px auto 0 auto;
-                width: 500px;
-                margin-left: 35px;
                 text-align: center;
             }
 
@@ -55,7 +54,6 @@
 
         .react-textbox{
             padding: $padding;
-            max-width: 500px;
         }
 
         @media(min-width: $menuBreak){
@@ -69,7 +67,6 @@
 
             .react-textbox{
                 margin: 0 auto 0 auto;
-                width: 240px;
                 padding: 20px 0 20px 0;
                 text-align: center;
             }

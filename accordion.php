@@ -2,7 +2,7 @@
 <div class="panel">
 <h4>Research</h4>
         <p>After receiving the brief, my teammates and I began by researching other bakeries and cafes with a similar homey, friendly, welcoming vision. Once we collectively decided on our top five websites, 
-            we prepared our website needs analysis with quesitons to ask our client during the discovery meeting. 
+            we prepared our website needs analysis with questions to ask our client during the discovery meeting. 
         </p>
 
     <h4>Planning</h4>

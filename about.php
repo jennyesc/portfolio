@@ -52,7 +52,7 @@
                     <p>I am a Front-end Web Developer and UX/UI Designer 
                     with a passion for the creative process and seeing a well planned project come to life. </p>
 
-                    <p>With practical and professional industry experience, I have gained a strong foundation of industry standards and best practises. 
+                    <p>With practical and professional industry experience, I have gained a strong foundation of industry standards and best practices. 
                     I always tell people that I love to listen to hear what you are not saying. I am team oriented, love to collaborate and appreciate feedback 
                     with the mindset to continuously grow as a developer and designer.</p>
                 </section>

@@ -361,13 +361,10 @@ a {
 }
 .project-wrapper .portfolio-proj .portfolio-textbox {
   padding: 10px 10px 25px 15px;
-  width: 300px;
 }
 @media (min-width: 460px) {
   .project-wrapper .portfolio-proj .portfolio-textbox {
     margin: 9px auto 0 auto;
-    width: 500px;
-    margin-left: 35px;
     text-align: center;
   }
 }
@@ -382,7 +379,6 @@ a {
 }
 .project-wrapper .react-proj .react-textbox {
   padding: 10px 10px 25px 15px;
-  max-width: 500px;
 }
 @media (min-width: 460px) {
   .project-wrapper .react-proj {
@@ -395,7 +391,6 @@ a {
   }
   .project-wrapper .react-proj .react-textbox {
     margin: 0 auto 0 auto;
-    width: 240px;
     padding: 20px 0 20px 0;
     text-align: center;
   }
@@ -1198,7 +1193,7 @@ nav ul a {
   width: 100%;
   height: 100%;
   text-align: center;
-  padding: 30px;
+  padding: 30px 40px;
   color: #fff;
   font-weight: 500;
 }
@@ -1342,7 +1337,6 @@ footer p {
 .btn-container {
   display: flex;
   justify-content: center;
-  flex-wrap: wrap;
   margin-top: 15px;
 }
 .btn-container .faux-btn {
