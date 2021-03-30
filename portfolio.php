@@ -14,51 +14,53 @@
         <section class="project-intro">
             <picture class="portfolio-header">
                 <source media="(max-width: 500px)" srcset="images/portfolio-500.jpg">
-                <source media="(max-width: 1000px)" srcset="images/portfolio-1000.jpg">
-                <source media="(min-width: 1000px)" srcset="images/portfolio-full.jpg">
+                <source media="(max-width: 999px)" srcset="images/portfolio-1000.jpg">
+                <source media="(min-width: 999px)" srcset="images/portfolio-full-ls.jpg">
                 <img src="images/portfolio-1000.jpg" alt="laptop and painting on blue background">
 			</picture>
             
-            <div class="project-summary portfolio-summary">
-                <h3>Portfolio Project</h3>
-                <p> For this project, I choose to <em>hard code</em> my portfolio website using HTML5, CSS3/Sass and JavaScript. 
-                As my other portfolio projects were built using WordPress and React, I felt that a hard coded site would be a nice balance.
-                During the research and planning phase, I decided to expand on the theme from my student landing page.
-            </p>
+            <div class=" box project-summary portfolio-summary">
+                <div class="summary-container">
+                    <h1>Portfolio Project</h1>
+                    <p> For this project, I choose to hard code my portfolio website using HTML5, CSS3/Sass and JavaScript. </p>
                 
-            <h4>Inspiration</h4>
-            <p>My inspiration for the design of my portfolio is the artwork of the Dutch artist, Piet Mondrian (1872-1944). Growing up in 
-                The Netherlands, the architectural and art forms from the De Stijl movement, made an everlasting impression on me. With the 
-                creative freedom of this project, I choose to take from my inspiration and use the bold colours and grid layouts. 
-            </p>
-                <p class="timeline">Project timeline: Five Weeks </p>            
+                    <h2>Inspiration</h2>
+                    <p>My inspiration for the design of my portfolio is the artwork of the Dutch artist, Piet Mondrian (1872-1944). Growing up in 
+                        The Netherlands, the architectural and art forms from the De Stijl movement, made an everlasting impression with me. With the 
+                        creative freedom of this project, I choose to take from my inspiration and use the bold colours and grid layouts. 
+                    </p>
+                        <p class="timeline">Project timeline: Five Weeks </p>            
+                </div>
+                <div class="button-container">                   
+                    <a class="btn white-btn" href="https://www.jennyescobell.com" target="_blank" rel="noopener noreferrer" > <i class="fas fa-desktop"></i>&nbsp;&nbsp; Live Site</a>
+                    <a class="btn white-btn" href="https://github.com/jennyesc/portfolio" target="_blank" rel="noopener noreferrer"> <i class="fab fa-github"></i>&nbsp;&nbsp;GitHub</a>
+                </div>
+            </div>
+
+            <div class="scroll-down scroll-white">
+                <div class="rond"></div>
             </div>
         </section>
 
-        <section class="key-info">
-            <h3 class="key-heading">Roles</h3>
-            <p>As this was a solo project, I did 100% of the work.</p>
-            
-            <h3 class="key-heading">Software</h3>
-            <p>Adobe XD, Adobe Photoshop, GitHub, Trello, VS Code.</p>
+        <div class="box-container">
+            <section class="box key-info">
+                <div class="key-container">
+                    <i class="fas-pf fas fa-user-circle"></i>
+                    <h2 class="key-heading">Roles</h2>
+                    <p>As this was a solo project, I did 100% of the work.</p>
+                </div>
+                
+                <div class="key-container">
+                    <i class="fas-pf fas fa-toolbox"></i>
+                    <h2 class="key-heading">Toolbox</h2>
+                    <p>Adobe XD, Adobe Photoshop, GitHub, Trello, VS Code, HTML5, CSS3/Sass, JavaScript, PHP.</p>
+                </div>
+            </section>
 
-            <h3 class="key-heading">Development</h3>
-            <p>HTML5, CSS3/Sass, JavaScript, PHP.</p>
-        </section>
-
-        <section class="accordion-container">
-            <?php include 'accordion-pf.php';?>
-        </section>
-
-        <section class="reflections">
-        <h3>Reflections</h3>
-        <p class="last-par">Coming Soon</p>
-        
-        <div class="btn-container">
-            <a class="yellow-btn faux-btn" href="#"> GitHub</a>
+            <section class="box accordion-container accordion-container-02">
+                <?php include 'accordion-pf.php';?>
+            </section>
         </div>
-
-        </section>
 
         <section class="indiv-box-cont">
             <a class="blue-box" href="two-sisters.php"> <i class="fas fa-chevron-left"></i> Previous</a>

@@ -3,213 +3,281 @@
 
 // Individual Project Pages Styles
 
-.project-intro{
-    display: grid;
-    flex-wrap: wrap;
+.project-intro {
+  margin-top: 100px;
+  position: relative;
+  @media (min-width: $menuBreak) {
+    margin-top: 110px;
+  }
+
+  picture {
+    img {
+      object-fit: cover;
+      display: block;
+    }
+  }
+
+  .project-summary {
+    margin-top: 15px;
+    @media (min-width: $menuBreak) {
+      display: grid;
+      grid-template-columns: 2fr 1fr;
+
+      .summary-container {
+        padding-right: 20px;
+      }
+    }
+  }
+
+  .scroll-down {
+    display: none;
+    @media (min-width: $break3) {
+      display: inline-block;
+      position: absolute;
+      border: 1.5px solid #000;
+      border-radius: 20px;
+      width: 25px;
+      height: 40px;
+      padding: 2px 0px;
+      bottom: 5vh;
+      margin-left: 50%;
+      transform: translateX(-50%);
+      opacity: 0.5;
+
+      .rond {
+        height: 4px;
+        width: 4px;
+        border-radius: 50%;
+        background-color: #000;
+        margin: 0 auto;
+        animation: anim1 3.5s infinite;
+      }
+    }
+  }
+  .scroll-white {
+    border: 1.5px solid #fff;
+
+    .rond {
+      background: #fff;
+    }
+  }
+
+  @keyframes anim1 {
+    0% {
+      margin-top: 0px;
+      opacity: 0;
+    }
+    100% {
+      margin-top: 25px;
+      opacity: 1;
+    }
+  }
+
+  //project intro desktop 1000px
+  @media (min-width: $break3) {
+    position: relative;
+    height: 90vh;
+    width: 100%;
+    overflow: hidden;
+    display: flex;
     align-items: center;
-    grid-row-gap: 15px;
-    margin-top: 100px;
 
-    picture{
+    picture {
+      position: absolute;
+      z-index: -1;
+      width: 100%;
+      height: 100%;
+      background: $jne-red;
 
-        img{
-            object-fit: cover;
-            display: block;
-        }
+      img {
+        margin-left: -10px;
+        display: block;
+        height: 100%;
+      }
     }
 
-    .project-summary{
-        padding: $padding;
-        background: $jne-white;
-        
-        h3{
-            margin-bottom: 15px;
-        }
-        p{
-            line-height: 1.4rem;
-            margin-bottom: 15px;
-        }
+    .portfolio-header {
+      background: $jne-blue;
 
-        .timeline{
-            font-weight: $medium;
-        }
+      img {
+        margin-left: 0;
+        width: 100%;
+      }
     }
 
-    @media(min-width: $break1){
-        margin-top: 110px;
+    .moviebuff-header {
+      background: $jne-yellow;
+      img {
+        width: 100%;
+        margin-left: 0;
+      }
     }
 
-    @media (min-width: $break2){
-        @include mc;
-        max-width: $siteWidth;
-        margin-top: 110px;
-        margin-bottom: 15px;
+    .project-summary {
+      position: absolute;
+      z-index: 1;
+      border-radius: $border4;
+      width: 48%;
+      left: 52%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: #fff;
+      text-shadow: 2px 2px 2px rgba(20, 2, 2, 0.4);
+      padding: 0 50px 0 0;
 
-        picture{
-            // border: $blueborder;
-            max-height: 350px;
-            img{
-                object-position: 0 -150px;
-                display: block;
-                object-fit: cover;
-            }
-        }
+      .summary-container {
+        padding: 10px;
+      }
+      .summary-yellow {
+        color: #000;
+        // text-shadow: 1px 1px 1px rgba(20, 2, 2, 0.2);
+        text-shadow: none;
+      }
+      .btn {
+        text-shadow: none;
+      }
+    }
+  } //project-intro desktop
+} //project-intro
 
-        .portfolio-header{
-            img{
-                object-position: 0 -300px;
-            }
-        }
+.box {
+  margin-bottom: 15px;
+  padding: 10px;
+  @media (min-width: $break3) {
+    padding: 20px;
+  }
 
-        .moviebuff-header{
-            img{
-               object-position: 0 -200px;
-            }
-        }
+  h1 {
+    margin: 15px 0;
+    padding-left: 10px;
+  }
 
-        .project-summary{
-            padding: 25px 50px;
-            h3, h4, p, .timeline{
-                @include mc;
-                max-width: 750px;
-                line-height: 1.6rem;
-            }
-            
-            h3{
-                margin-bottom: 10px;
-            }
+  h2 {
+    padding-left: 10px;
+    margin: 15px 0 10px;
+  }
+  p {
+    line-height: 1.4rem;
+    margin-bottom: 12px;
+    max-width: $break3;
+    padding-left: 10px;
+    padding-right: 10px;
+    @media (min-width: $break3) {
+      padding-right: 50px;
+    }
+  }
 
-            h4{
-                margin-top: 20px;
-                margin-bottom: 10px;
-            }
-
-            .timeline{
-                margin-top: 15px;
-            }
-        }
-    }//end media project intro
-    
-
+  .timeline {
+    font-weight: $medium;
+  }
 }
-
-.key-info{
+.box-container {
+  .key-info {
     background: $jne-blue;
     color: #fff;
-    padding: $padding;
+    padding: 5px 20px;
 
-    h3{
-        line-height: 1.75rem;
-        font-size: 1.15rem;
-        text-transform: none;
+    .fas {
+      display: none;
     }
 
-    p{
-        margin-bottom: 15px;
-        line-height: 1.45rem;
+    h2 {
+      margin-top: 25px;
     }
 
-    .last-par{
-        margin-bottom: 0;
-    }
-    @media(min-width: $break1){
-        padding: 20px 50px;
-    }
+    p {
+      margin: 8px 0 15px 0;
+      line-height: 1.5rem;
 
-    @media(min-width: $break2){
+      .no-break {
+        display: none;
+      }
+    }
+  }
+
+  .accordion-container {
+    padding: 0;
+    background: #fff;
+  }
+  //box-container 1000px
+  @media (min-width: $break3) {
+    .key-info {
+      background: none;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      grid-gap: 15px;
+      justify-content: center;
+      align-items: center;
+      @include mc;
+
+      .key-container {
         @include mc;
-        max-width: $siteWidth;
-        padding: 25px 50px;
-        margin-bottom: 15px;
-        
-        .key-heading, p{
-            @include mc;
-            max-width: 750px;          
-        }
-        p{
-            margin-bottom: 10px;
-        }
-        
-    }
-}//end key info
-
-.accordion-container{
-    
-    @media(min-width: $break2){
-        @include mc;
-        max-width: $siteWidth;
-        margin-bottom: 15px;
         @include box-shadow;
-    }
+        display: flex;
+        align-content: flex-start;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin: 45px auto 50px;
+        text-align: center;
+        background-image: #fff;
+        color: #000;
+        width: 425px;
+        height: 250px;
+        border-radius: $border4;
 
+        .fas {
+          display: block;
+          font-size: 2rem;
+          width: 100%;
+          padding: 0;
+          margin-top: 40px;
+        }
+        .fas-ts {
+          color: $jne-red;
+        }
+        .fas-pf {
+          color: $jne-blue;
+        }
+
+        .fas-mb {
+          color: $jne-yellow;
+        }
+        h2 {
+          margin: 15px 0;
+          width: 100%;
+          padding: 0;
+        }
+        .no-break {
+          display: inline;
+        }
+      }
+    }
+  }
 }
 
-.reflections{
-    padding: $padding;
-    margin-bottom: 5px;
-    background: $jne-white;
-    
-    h3{
-        text-transform: none;
-    }
+.indiv-box-cont {
+  display: grid;
+  grid-template-columns: repeat (2, 2fr);
+  grid-auto-rows: 50px;
+  grid-column-gap: 15px;
+  align-items: center;
+  margin-bottom: 15px;
+  padding-top: 10px;
+  grid-template-areas: "yellow-box  black-box";
 
-    p{
-       margin-bottom: 15px;
-    }
-    @media(min-width: $break1){
-        padding: 20px 50px;
-    }
+  .blue-box {
+    background: $jne-yellow;
+    grid-area: yellow-box;
+    color: black;
+    padding: 25px;
+  }
 
-    @media(min-width: $break2){
-        @include mc;
-        max-width: $siteWidth;
-        margin-bottom: 25px;
-
-        h3, p{
-            @include mc;
-            max-width: 750px;
-        }
-
-        h3{
-            margin-bottom: 10px;
-        }
-
-        p{
-            margin-bottom: 15px;
-            line-height: 1.6rem;
-        }
-    }
-}
-
-
-
-.indiv-box-cont{
-    display: grid;
-    grid-template-columns: repeat (2, 2fr);
-    grid-auto-rows: 50px;
-    grid-column-gap: 15px;
-    align-items: center;
-    margin-bottom: 15px;
-    
-    grid-template-areas: 
-            "blue-box  black-box";
-    .blue-box{
-        background: $jne-blue;
-        grid-area: blue-box;
-        color: white;
-        padding: 25px;
-    }
-
-    .black-box{
-        background: #000;
-        grid-area: black-box;
-        color: white;
-        text-align: right;
-        padding: 25px;
-    }
-    @media(min-width: $break2){
-        @include mc;
-        max-width: $siteWidth;
-        margin-bottom: 35px;
-    }
+  .black-box {
+    background: #000;
+    grid-area: black-box;
+    color: white;
+    text-align: right;
+    padding: 25px;
+  }
 }

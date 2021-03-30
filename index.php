@@ -14,8 +14,8 @@
         <section id="top" class="intro-container">
             <div class="intro">
                 <h2><span class="red-block">Front-end developer</span> and
-                <span class="blue-block">designer </span>
-                with a passion for the <span class="yellow-block">creative process </span>
+                <span class="blue-block">designer</span>
+                with a passion for the <span class="yellow-block">creative process</span>
                 and user centric design.</h2>
             </div>
         </section>

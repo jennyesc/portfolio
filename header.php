@@ -2,7 +2,7 @@
 <div class="header-row">
     <a class="logo" href="index.php">
     <img src="images/jennyescobell.png" alt="Jenny Escobell logo"/> 
-    <h1>Jenny <span class="escobell">Escobell </span> </h1>
+    <span class="name">Jenny <span class="escobell">Escobell </span> </span>
     </a>
 
     <nav class="mobile-nav">

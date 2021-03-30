@@ -4,15 +4,16 @@
 
 //Colors
 $jne-blue: #304673;
-$jne-red: #BF212e;
+$jne-red: #bf212e;
 $jne-yellow: #f2b90c;
 $jne-white: #f2f2f2;
 
-//Dimensions
-$siteWidth: 1200px;
+$jne-dark-blue: darken($jne-blue, 10%);
+$jne-dark-red: darken($jne-red, 10%);
+$jne-black-light: lighten(#000, 30%);
 
 //typography
-$roboto: 'Roboto', sans-serif;
+$roboto: "Roboto", sans-serif;
 
 //font-weight
 $light: 300;
@@ -34,7 +35,11 @@ $purpleborder: 2px solid purple;
 $orangeborder: 2px solid orange;
 $blackborder: 2px solid black;
 
+//Dimensions
+$siteWidth: 1400px;
+
 //Breakpoints
-$menuBreak: 460px;
+$menuBreak: 720px;
 $break1: 650px;
-$break2: 950px;
+$break2: 920px;
+$break3: 1000px;

@@ -1,70 +1,83 @@
-
 @use 'vars' as *;
 // @use '../utilities/mixins' as *;
 // @use '../utilities/functions' as *;
 
-html{
-    font-family: $roboto;
+html {
+  font-family: $roboto;
 }
 
-h1, h2, h3, h4, h5{
-    letter-spacing: 0.055rem;
+h1,
+h2,
+h3 {
+  letter-spacing: 0.055rem;
 }
 
-
-h1{
-    font-size: 1.15rem;
-    font-weight: $bold;
-    text-transform: uppercase;
-
-    .escobell{
-        font-weight: $light;
-    }
+h1 {
+  font-size: 1.25rem;
+  font-weight: $bold;
+  text-transform: uppercase;
 }
 
-
-h3{
-    font-weight: $bold;
-    font-size: 1.25rem;
-    text-transform: uppercase;
-    padding: 10px 0 5px 0; 
+h2 {
+  font-size: 1.15rem;
+  font-weight: $bold;
 }
 
-h4{
-    font-weight: $medium;
-    font-size: 1.15rem;
-    padding: 15px 0 5px 0;
+h3 {
+  font-weight: $bold;
+  font-size: 1.15rem;
+  text-transform: uppercase;
+  padding: 10px 0 5px 0;
 }
 
-h5{ 
-    color: #fff;
-    font-weight: $medium;
-    padding: 4px;
+h4 {
+  font-weight: $medium;
+  font-size: 1rem;
+  line-height: 1.35rem;
+  margin: 10px 0 5px 0;
 }
 
-.dev-par{
-    font-style: italic;
-    color: $jne-blue;
-    line-height: 1.30rem;
-    margin-bottom: 20px;
+h5 {
+  color: #fff;
+  font-weight: $medium;
+  padding: 4px;
 }
 
-p{
-    hyphens: none;
-    line-height: 1.35rem;
+.name {
+  margin-top: 32px;
+  margin-left: -55px;
+  font-size: 1.15rem;
+  font-weight: $bold;
+  text-transform: uppercase;
+
+  .escobell {
+    font-weight: $light;
+  }
 }
 
-.tools{
-    text-transform: uppercase;
-    font-weight: $bold;
-    font-size: 1rem;
-    margin-top: 15px;
+.dev-par {
+  font-style: italic;
+  color: $jne-blue;
+  line-height: 1.3rem;
+  margin-bottom: 20px;
 }
 
-.tools-par{
-    line-height: 1.5rem;
+p {
+  hyphens: none;
+  line-height: 1.35rem;
 }
 
-.last-par{
-    padding-bottom: 15px;
+.tools {
+  text-transform: uppercase;
+  font-weight: $bold;
+  font-size: 1rem;
+  margin-top: 15px;
+}
+
+.tools-par {
+  line-height: 1.5rem;
+}
+
+.last-par {
+  padding-bottom: 15px;
 }
