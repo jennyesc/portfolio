@@ -1,4 +1,4 @@
-<div class="accordion">
+<div class="accordion accordion-yellow">
     <section class="accordion-container accordion-container-01">
         <h2 class="tab tab-01">Process <span class="fas fa-plus plus-minus"> </span>  </h2>
         <section class="content content-01">
@@ -22,7 +22,7 @@
             <p> The design is based on a dark movie theatre, but with the pop of neon pink for a nice contrasting colour. When I created the logo, I 
             really wanted to emulate the neon lights to give the design a little bit of a retro touch. </p>
     
-            <section class=logo-container>
+            <section class="logo-container mb-logo-container">
                 <h4>Logo</h4>
                 <img src="images/movieBuff.jpg" alt="the Movie Buff logo">
 

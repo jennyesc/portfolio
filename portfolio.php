@@ -66,8 +66,6 @@
             <a class="blue-box" href="two-sisters.php"> <i class="fas fa-chevron-left"></i> Previous</a>
             <a class="black-box" href="moviebuff.php">Next <i class="fas fa-chevron-right"></i></a>
         </section>
-        
-        <button onclick="topFunction()" id="myBtn" class="top-btn" title="Go to top"><i class="fas fa-arrow-circle-up"></i> </button>
 
        <footer>
             <?php include 'footer.php';?>

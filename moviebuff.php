@@ -65,8 +65,6 @@
             <a class="black-box" href="two-sisters.php">Next <i class="fas fa-chevron-right"></i></div>
         </section>
        
-        <button onclick="topFunction()" id="myBtn" class="top-btn" title="Go to top"><i class="fas fa-arrow-circle-up"></i> </button>
-       
         <footer>
             <?php include 'footer.php';?>
         </footer>
