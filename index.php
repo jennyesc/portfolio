@@ -13,10 +13,10 @@
     <main>
         <section id="top" class="intro-container">
             <div class="intro">
-                <h2><span class="red-block">Front-end developer</span> and
+                <h1><span class="red-block">Front-end developer</span> and
                 <span class="blue-block">designer</span>
                 with a passion for the <span class="yellow-block">creative process</span>
-                and user centric design.</h2>
+                and user centric design.</h1>
             </div>
         </section>
 
@@ -29,17 +29,16 @@
                     <img src="images/two-sisters-mobile-1000.jpg" alt="two iPhones on a red background">
                 </picture>
 
-                <section class="cur-text-container">
-                        <h3>Current Project</h3>
-                        <h4>Two Sisters Bakery</h4>
-                        <p class="dev-par"> In Development</p>
-               
-                        <h4 class="tools"> Tools</h4>
+                <section class="box cur-text-container">
+                        <h2>Featured Project</h2>
+                        <h3>Two Sisters Bakery</h3>
+                        
+                        <h3 class="tools"> Tools</h3>
                         <p class="tools-par"> Adobe XD | Adobe Photoshop <br> WordPress | WooCommerce</p>
 
-                    <div class=btn-container>
-                        <a class="faux-btn red-btn" href="two-sisters.php"> <span class="white-border"></span>  Go to Project</a>
-                    </div>
+                        <div class="button-container">                   
+                            <a class="btn white-btn" href="two-sisters.php"> Go to Project</a>
+                        </div>
                 </section>
                  
                 <div class="view-all-btn">
@@ -47,7 +46,7 @@
                 </div>
             </section>
 
-            <section class="about-jenny-container">
+            <div class="about-jenny-container">
 
                 <picture class="jne-pic">
                     <source media="(max-width: 500px)" srcset="images/about-jenny-320w.jpg">
@@ -56,14 +55,14 @@
                     <img src="images/about-jenny-750w.jpg" alt="desk with monitor and laptop">
                 </picture>
 
-                <div class="about-text-container">
+                <section class="about-text-container">
                     <h3> A little about me</h3>
                     <div class="about-par"></div>
                     <p> I am a Front-End Developer and UX/UI Designer with a professional background in graphic design. 
                     I love being part of the creative process and seeing a well planned project come to life. </p>
                     <p> In my spare time, you will find me either behind one of my sewing machines creating something 
                     new or exploring our beautiful landscape on my bicycle. </p>                
-                </div>
+                </section>
 
                 <div class="about-btn">
                     <a href="about.php" class="more-about"> <span class=blue-border>More about me</span> </a>
@@ -73,8 +72,7 @@
                     <div class="yellow-box"></div>
                     <div class="black-box"></div>
                 </div>
-
-            </section>
+            </div>
     </div> <!-- end wrapper desktop  -->
     
         <button onclick="topFunction()" id="myBtn" class="top-btn" title="Go to top"><i class="fas fa-arrow-circle-up"></i> </button>

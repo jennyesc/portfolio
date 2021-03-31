@@ -78,6 +78,12 @@
     border-radius: 5px;
     background: linear-gradient(145deg, #151515, #151515);
     box-shadow: 8px 8px 16px #0a0a0a, -8px -8px 16px #141414;
+
+    &:hover,
+    :active {
+      box-shadow: -3px -3px 5px #070707 inset, 3px 3px 5px #0e0e0e inset;
+      user-select: none;
+    }
   }
 }
 
@@ -103,6 +109,11 @@
     border-radius: 7px;
     background: linear-gradient(145deg, #334b7b, #2b3f68);
     box-shadow: 9px 9px 18px #2b3e66, -9px -9px 18px #354e80;
+    &:hover,
+    :active {
+      box-shadow: -3px -3px 5px #2b3e66 inset, 3px 3px 5px #2b3e66 inset;
+      user-select: none;
+    }
   }
 }
 
@@ -183,6 +194,7 @@
     @include button-shadow;
     margin: 25px auto 40px auto;
     background: white;
+    color: #000;
 
     &:hover,
     :active {

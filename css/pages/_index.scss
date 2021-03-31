@@ -3,244 +3,232 @@
 
 //styles for index page
 
+.intro-container {
+  height: 80vh;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 
-.intro-container{
-    height: 80vh;
-    margin: 0 auto;
+  .intro {
+    width: 85vw;
+    height: 80%;
     display: flex;
-    justify-content: center;
-    align-items: center;  
+    align-items: center;
 
-    .intro{
-        width: 85vw;
-        height: 80%;
-        display: flex;
-        align-items: center;
-        
+    h1 {
+      font-size: 1.875rem;
+      line-height: 2.6rem;
+      font-weight: $medium;
+      text-transform: inherit;
 
-        h2{
-            font-size: 1.875rem;
-            line-height: 2.6rem;
-            font-weight: $medium;
+      .red-block {
+        border-bottom: 3px solid $jne-red;
+      }
 
-            .red-block{
-                border-bottom: 3px solid $jne-red;
-                // background: $jne-red;
-                // content: '';
-                // display: block;
-                // height: 15px;
-                // position: absolute;
-                // bottom: 0;
-                // left: 0;
-                // width: 0%;
-                // z-index: -1;
-                // animation: line;
-                // animation-duration: 3s;
-                // animation-delay: 1s;
-                // animation-fill-mode: forwards;
-                
-            }
+      .blue-block {
+        border-bottom: 3px solid $jne-blue;
+      }
 
-            .blue-block{
-                border-bottom: 3px solid $jne-blue;
-            }
-
-            .yellow-block{
-                border-bottom: 3px solid $jne-yellow;
-            }
-        }
+      .yellow-block {
+        border-bottom: 3px solid $jne-yellow;
+      }
     }
-    @media (min-width: 800px){
-        @include mc;
-        max-width: $siteWidth;
-        height: 95vh;
+  }
+  @media (min-width: 800px) {
+    @include mc;
+    max-width: $siteWidth;
+    height: 95vh;
 
-        .intro{
-            max-width: 680px;
-        }
+    .intro {
+      max-width: 680px;
     }
-    
-}//end intro container
+  }
+} //end intro container
 
-.wrapper-desktop{
-    .current-container{
-        margin: 15px 0;
-        background: $jne-white;
-
-        img{
-            width: 100%;
-            height: 100%;
-            object-fit: cover;
-        }
-
-        .cur-text-container{
-            padding: $padding;
-            align-content: center;
-            background: $jne-white;
-        
-            @media (min-width: $menuBreak){
-                margin: 0 auto;
-                width: 240px;
-                padding-left: 20px;
-                text-align: center;
-            }                   
-            //styles for .tools and .tools-par are in typography
-        }
+.wrapper-desktop {
+  .current-container {
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
     }
-    
-    .about-jenny-container{
-        margin: 15px 0;
-        
-        .about-text-container{
-            padding: 10px 20px 15px 15px;
-            max-width: 550px;
+    .cur-text-container {
+      padding: 0;
+      align-content: center;
+      text-align: center;
 
-            p{  
-                margin-top: 10px;
-                line-height: 1.35rem;
-            }
-            @media (min-width: $menuBreak){
-                margin: 0 auto;
-                width: 90%;
-                
-                h3{
-                    width: 100%;
-                }
-            }
-        }
-    }
+      h2 {
+        text-transform: uppercase;
+        font-size: 1.25rem;
+        margin-top: 50px;
+      }
 
-    .index-box-cont{
-        display: grid;
-        grid-template-columns: repeat(2, 2fr);
-        grid-auto-rows: 50px;
-        grid-column-gap: 15px;
-        grid-template-areas: 
-                "yellow-box  black-box"
-                "yellow-box  black-box";
-        
-        .yellow-box{
-            background: $jne-yellow;
-            grid-area: yellow-box;
-        }
+      h3 {
+        text-transform: inherit;
+        margin-top: 10px;
+      }
 
-        .black-box{
-            background: #000;
-            grid-area: black-box;
-        }
-    }
-    @media (min-width: $break2){
+      .button-container {
+        display: inline-block;
         padding: 0;
+        .btn {
+          margin: 20px auto 25px auto;
+        }
+      }
+
+      @media (min-width: $menuBreak) {
         margin: 0 auto;
-        background: #fff;
-
-        .current-container{
-            width: 100%;
-            background: #fff;
-            display: grid;
-            grid-template-columns: repeat(4, 2fr);
-            grid-auto-rows: 100px;
-            grid-template-rows: repeat(1, 1fr);
-            grid-gap: 0.75rem;
-            grid-template-areas: 
-                "cur-img    cur-img     cur-text    cur-text"
-                "cur-img    cur-img     cur-text    cur-text"
-                "cur-img    cur-img     more-link  more-link"
-            ;    
-            picture{
-                grid-column: 1/3;
-                grid-row: 1/4;
-                height: 100%;
-                width: 100%;
-                grid-area: cur-img;
-
-                img{
-                    display: block;
-                    object-fit: cover;                
-                }
-            }
-            
-            .cur-text-container{
-                height: 100%;
-                width: 100%;
-                grid-area: cur-text;
-                padding-top: 25px;
-            }
-
-            .view-all-btn{
-                grid-area: more-link;
-            }
+        width: 240px;
+        p {
+          padding: 0;
         }
-
-        .about-jenny-container{
-            width: 100%;
-            // background: $jne-white;
-            display: grid;
-            grid-template-columns: repeat(4, 1fr);
-            grid-auto-rows: 100px;
-            grid-template-rows: repeat(1, 1fr);
-            grid-gap: 0.75rem;
-            grid-template-areas: 
-                "about-text  about-text  about-img    index-box"
-                "about-text   about-text about-img    index-box"
-                "about-text    about-text about-btn    index-box"
-            ;
-
-           picture{
-                grid-area: about-img;
-                width: 100%;
-                height: 200px;
-                grid-column: 3/4;
-                grid-row: 1/3;                
-                
-                img{
-                    height: 220px;
-                    width: 100%;
-                    max-height: 200px;
-                    object-fit: cover;
-                    display: block;
-                    max-height: 20rem;
-                }
-            }
-
-            .about-text-container{
-                grid-area: about-text;
-                padding-top: 50px;
-                width: 100%;
-                height: 100%;
-                grid-column: 1/3;
-                grid-row: 1/4;
-            }
-            
-            .about-btn{
-            grid-area: about-btn;
-            padding: 35px;
-            height: 80%;
-            margin-top: 20px;
-            background: $jne-blue;
-            grid-column: 3/4;
-            grid-row: 3/4;     
-                
-                a{
-                    padding: 0;   
-                }
-                .blue-border{
-                    padding: 15px;
-                }
-            }
-
-            .index-box-cont{
-                grid-column: 4/5;
-                grid-row: 3/4;
-                grid-template-areas: 
-                    "yellow-box  yellow-box"
-                    "yellow-box  yellow-box"
-                    "yellow-box  yellow-box"
-                    "black-box  black-box"
-                    "black-box  black-box";
-                grid-gap: 15px;
-                grid-area: index-box;
-            }
-        }
+      }
     }
+  }
+
+  .about-jenny-container {
+    margin: 15px 0;
+
+    .about-text-container {
+      padding: 10px 20px 15px 15px;
+      max-width: 550px;
+
+      p {
+        margin-top: 10px;
+        line-height: 1.35rem;
+      }
+      @media (min-width: $menuBreak) {
+        margin: 0 auto;
+        width: 90%;
+
+        h3 {
+          width: 100%;
+        }
+      }
+    }
+  }
+
+  .index-box-cont {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 15px;
+    grid-template-areas:
+      "yellow-box  black-box"
+      "yellow-box  black-box";
+
+    .yellow-box {
+      background: $jne-yellow;
+      grid-area: yellow-box;
+    }
+
+    .black-box {
+      background: #000;
+      grid-area: black-box;
+    }
+  }
+  @media (min-width: $break2) {
+    padding: 0;
+    margin: 0 auto;
+    background: #fff;
+
+    .current-container {
+      width: 100%;
+      background: #fff;
+      display: grid;
+      grid-template-columns: repeat(4, 2fr);
+      grid-auto-rows: 100px;
+      grid-template-rows: repeat(1, 1fr);
+      grid-gap: 0.75rem;
+      grid-template-areas:
+        "cur-img    cur-img     cur-text    cur-text"
+        "cur-img    cur-img     cur-text    cur-text"
+        "cur-img    cur-img     more-link  more-link";
+      picture {
+        grid-column: 1/3;
+        grid-row: 1/4;
+        height: 100%;
+        width: 100%;
+        grid-area: cur-img;
+
+        img {
+          display: block;
+          object-fit: cover;
+        }
+      }
+
+      .cur-text-container {
+        height: 100%;
+        width: 100%;
+        grid-area: cur-text;
+        padding-top: 25px;
+      }
+
+      .view-all-btn {
+        grid-area: more-link;
+      }
+    }
+
+    .about-jenny-container {
+      width: 100%;
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      grid-gap: 15px;
+      grid-template-areas:
+        "about-text about-text  about-img   index-box"
+        "about-text about-text  about-img   index-box"
+        "about-text about-text  about-img   index-box"
+        "about-text about-text  about-btn   index-box"
+        "about-text about-text  about-btn   index-box";
+
+      picture {
+        grid-area: about-img;
+
+        img {
+          height: 230px;
+          width: 100%;
+          max-height: 192px;
+          object-fit: cover;
+          display: block;
+        }
+      }
+
+      .about-text-container {
+        grid-area: about-text;
+        padding-top: 50px;
+        width: 100%;
+        height: 100%;
+      }
+
+      .about-btn {
+        grid-area: about-btn;
+        padding: 35px;
+        height: 100%;
+        background: $jne-blue;
+        // margin-top: 1px;
+
+        a {
+          padding: 10px;
+        }
+        .blue-border {
+          padding: 15px;
+        }
+      }
+
+      .index-box-cont {
+        // grid-column: 4/5;
+        // grid-row: 3/4;
+        grid-template-rows: 100px;
+        grid-template-areas:
+          "yellow-box  yellow-box"
+          "yellow-box  yellow-box"
+          "yellow-box  yellow-box"
+          "black-box  black-box"
+          "black-box  black-box"
+          "black-box  black-box";
+        grid-gap: 15px;
+        grid-area: index-box;
+      }
+    }
+  }
 }

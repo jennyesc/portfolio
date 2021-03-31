@@ -120,7 +120,7 @@
             <p>I learned a lot during this project, especially when it came to styling WordPress sites. 
                 I am proud to say that we had zero merge conflicts during the project and am very proud of our end result.</p> 
 
-            <p> In conclusion, I invite you to take a look at the <a href="https://twosistersbakery.bcitwebdeveloper.ca/notapage">404 page</a> created by me. 
+            <p> In conclusion, I invite you to take a look at the <a href="https://twosistersbakery.bcitwebdeveloper.ca/notapage" target="_blank" rel="noopener noreferrer">404 page</a> created by me. 
             I always appreciate a clever 404 page, which still serves its purpose to keep the user on the site.
             </p>
 

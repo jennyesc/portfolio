@@ -20,7 +20,7 @@
                 <img src="images/two-sisters-mobile-1000.jpg" alt="Two iPhones on a red background">
 			</picture>
             
-            <div class=" box project-summary">
+            <section class=" box project-summary">
                 <div class="summary-container">
                     <h1>Two Sisters Bakery</h1>
                     <p> Two Sisters Bakery is a multi-page e-commerce website built on the WordPress CMS platform.  
@@ -37,7 +37,7 @@
                     <a class="btn white-btn" href="https://www.jennyescobell.com/twosisters" target="_blank" rel="noopener noreferrer" > <i class="fas fa-desktop"></i>&nbsp;&nbsp; Live Site</a>
                     <a class="btn white-btn" href="https://github.com/htpwebdesign/two-sisters" target="_blank" rel="noopener noreferrer"> <i class="fab fa-github"></i>&nbsp;&nbsp;GitHub</a>
                 </div>
-            </div>
+            </section>
 
             <div class="scroll-down scroll-white">
                 <div class="rond"></div>

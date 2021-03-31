@@ -15,38 +15,51 @@
   transform: rotate(45deg);
 }
 .accordion {
+  margin-bottom: 50px;
   h2 {
-    margin: 0;
-    padding: 20px 25px;
+    margin: 0 auto;
+    padding: 28px 25px;
   }
 }
 
 .accordion-blue {
   .tab {
-    background: $jne-blue;
-    border-bottom: 1px solid darken($jne-blue, 10%);
+    border-bottom: 1px solid rgba(48, 70, 115, 0.3);
 
     &:hover,
     &:active {
-      background-color: $jne-dark-blue;
+      background-color: $jne-blue;
+    }
+  }
+  .content {
+    .fas,
+    .far {
+      color: $jne-blue;
     }
   }
 }
 
 .accordion-yellow {
   .tab {
-    background: $jne-yellow;
-    color: #000;
-    border-bottom: 1px solid darken($jne-yellow, 10%);
+    border-bottom: 1px solid rgba(242, 185, 12, 1);
 
     &:hover,
     &:active {
-      background-color: $jne-dark-yellow;
+      background-color: $jne-yellow;
+      color: #000;
+    }
+  }
+  .content {
+    .fas,
+    .far {
+      color: $jne-yellow;
     }
   }
 }
 .tab {
-  background-color: $jne-red;
+  background-color: #fff;
+  max-width: 1100px;
+  margin: 0 auto;
   cursor: pointer;
   padding: 20px;
   width: 100%;
@@ -54,15 +67,15 @@
   text-align: left;
   outline: none;
   transition: 0.4s;
-  border-bottom: 1px solid darken($jne-red, 10%);
+  border-bottom: 1px solid rgba(191, 33, 46, 0.3);
   text-transform: none;
-  color: #bf212e;
   font-weight: $bold;
   font-size: 1.15rem;
 
   &:hover,
   &:active {
-    background-color: $jne-dark-red;
+    background-color: $jne-red;
+    color: #fff;
   }
 }
 .fas {
@@ -106,6 +119,7 @@
       border-radius: $border4;
       margin-bottom: 15px;
       border: 1px solid rgba(194, 194, 194, 0.5);
+      width: 500px;
     }
   }
   .logo-container {
@@ -120,6 +134,14 @@
       @include box-shadow;
       border-radius: $border4;
       padding: 20px;
+    }
+  }
+
+  .wireframes-pf {
+    img {
+      border: none;
+      height: 450px;
+      width: auto;
     }
   }
 
@@ -296,14 +318,6 @@
 
     .wireframes {
       width: 80%;
-    }
-
-    .wireframes-pf {
-      img {
-        border: none;
-        height: 450px;
-        width: auto;
-      }
     }
   }
 } //end of content
