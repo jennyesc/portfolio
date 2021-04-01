@@ -348,85 +348,57 @@ a {
   }
 }
 
-.project-wrapper .current-proj {
+.project-wrapper {
   margin-top: 100px;
-  background: #f2f2f2;
 }
-.project-wrapper .current-proj h2 {
+.project-wrapper h2 {
   text-transform: uppercase;
-  font-weight: 700;
+  font-size: 1.25rem;
 }
-.project-wrapper .current-proj .proj-cur-textbox {
-  padding: 10px 10px 25px 15px;
-  max-width: 550px;
+.project-wrapper h3 {
+  text-transform: inherit;
+  margin-top: 10px;
 }
-@media (min-width: 720px) {
-  .project-wrapper .current-proj .proj-cur-textbox {
-    margin: 0 auto;
-    width: 240px;
-    padding-left: 20px;
-    text-align: center;
-  }
+.project-wrapper .proj-box {
+  text-align: center;
+  padding-top: 25px;
 }
-@media (min-width: 650px) {
-  .project-wrapper .current-proj {
-    margin-top: 105px;
-  }
+.project-wrapper .proj-box h2 {
+  margin-bottom: 10px;
 }
-.project-wrapper .portfolio-proj {
-  background: #f2f2f2;
+.project-wrapper .proj-box h3 {
+  margin-top: 0px;
+  padding: 0;
 }
-.project-wrapper .portfolio-proj .portfolio-textbox {
-  padding: 10px 10px 25px 15px;
-}
-@media (min-width: 720px) {
-  .project-wrapper .portfolio-proj .portfolio-textbox {
-    margin: 9px auto 0 auto;
-    text-align: center;
-  }
-}
-.project-wrapper .portfolio-proj .portfolio-textbox .blue-btn {
-  padding: 10px 20px 10px;
+.project-wrapper .proj-box .tools {
+  margin: 35px 0 5px;
 }
 .project-wrapper .react-proj {
-  display: grid;
-  flex-wrap: wrap;
-  align-items: center;
+  margin-top: 15px;
+}
+.project-wrapper .button-container .btn {
   background: #f2f2f2;
 }
-.project-wrapper .react-proj .react-textbox {
-  padding: 10px 10px 25px 15px;
-}
-@media (min-width: 720px) {
-  .project-wrapper .react-proj {
-    padding: 0;
-    align-items: flex-start;
+@media (min-width: 920px) {
+  .project-wrapper .button-container {
+    padding-right: 0;
+    padding-top: 5px;
   }
-  .project-wrapper .react-proj img {
-    margin-bottom: 0;
-    display: block;
-  }
-  .project-wrapper .react-proj .react-textbox {
-    margin: 0 auto 0 auto;
-    padding: 20px 0 20px 0;
-    text-align: center;
+  .project-wrapper .button-container .btn {
+    margin-top: 20px;
   }
 }
-.project-wrapper .projects-box-cont {
-  margin-bottom: 15px;
-  display: grid;
-  grid-template-columns: repeat 2, 2fr;
-  grid-auto-rows: 50px;
-  grid-column-gap: 15px;
-  grid-template-areas: "blue-box  red-box" "blue-box  red-box";
+.project-wrapper .current-proj .proj-cur-textbox {
+  background-color: #f2f2f2;
+  margin-top: 13px;
 }
-.project-wrapper .projects-box-cont .blue-box {
-  background: #304673;
-  grid-area: blue-box;
+.project-wrapper .portfolio-proj .portfolio-textbox {
+  background-color: #f2f2f2;
+  margin-top: 13px;
 }
-.project-wrapper .projects-box-cont .red-box {
-  background: #bf212e;
-  grid-area: red-box;
+.project-wrapper .react-textbox {
+  background-color: #f2f2f2;
+  margin-top: 13px;
 }
 @media (min-width: 920px) {
   .project-wrapper {
@@ -455,25 +427,10 @@ a {
   }
   .project-wrapper .current-proj .proj-cur-textbox {
     width: 100%;
-    max-width: 1000px;
+    height: 40.5%;
     text-align: center;
-    padding: 0;
-    margin-top: 42px;
-  }
-  .project-wrapper .current-proj .proj-cur-textbox h3 {
-    padding: 0;
-    margin: 0;
-    height: 20px;
-  }
-  .project-wrapper .current-proj .proj-cur-textbox .btn-container {
-    margin: 0;
-    padding: 0;
-  }
-  .project-wrapper .current-proj .proj-cur-textbox h4 {
-    margin: 0;
-  }
-  .project-wrapper .current-proj .proj-cur-textbox .btn-container {
-    padding: 0;
+    margin-top: 15px;
+    background-color: #f2f2f2;
   }
   .project-wrapper .portfolio-proj {
     grid-column: 3/8;
@@ -489,32 +446,35 @@ a {
   }
   .project-wrapper .portfolio-proj .portfolio-textbox {
     width: 100%;
-    padding: 20px 0;
+    height: 324px;
+    margin-top: 15px;
   }
   .project-wrapper .react-proj {
     grid-column: 1/8;
-    margin-top: 0;
-    display: flex;
-    flex-wrap: nowrap;
+    margin: 40px 0 20px;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
     justify-content: center;
     align-items: center;
-    padding: 0;
-    min-height: 530px;
-    margin-bottom: 20px;
     background: none;
   }
-  .project-wrapper .react-proj img {
-    min-height: 530px;
-    width: 1000px;
+  .project-wrapper .react-proj picture {
+    width: 100%;
+    height: 100%;
+    max-width: 100%;
+  }
+  .project-wrapper .react-proj picture img {
+    height: 550px;
+    width: 100%;
     object-fit: cover;
     display: block;
   }
   .project-wrapper .react-proj .react-textbox {
-    padding-top: 150px;
+    padding-top: 170px;
     width: 100%;
     height: 100%;
     margin-left: 0.75rem;
-    background: #f2f2f2;
+    margin-top: 0;
   }
 }
 
