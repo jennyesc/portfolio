@@ -780,11 +780,12 @@ a {
   color: #fff;
 }
 .about-wrapper .toolkit .ul-container {
-  max-width: 600px;
+  max-width: 300px;
   display: grid;
   grid-template-columns: 1fr 1fr;
-  margin: 0 auto;
+  justify-content: center;
   padding-top: 10px;
+  margin: 0 auto;
 }
 .about-wrapper .toolkit .ul-container h2 {
   grid-column: 1/4;
@@ -795,7 +796,8 @@ a {
 .about-wrapper .toolkit .ul-container ul {
   line-height: 1.8rem;
   margin: 0 auto;
-  padding: 10px 50px;
+  padding: 10px 35px;
+  justify-self: center;
 }
 .about-wrapper .toolkit .ul-container ul li {
   font-weight: 400;
@@ -843,6 +845,10 @@ a {
   }
   .about-wrapper .toolkit {
     grid-area: tools;
+    min-width: 275px;
+  }
+  .about-wrapper .toolkit ul {
+    padding: 10px 25px;
   }
 }
 

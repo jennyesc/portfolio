@@ -49,11 +49,12 @@
     color: #fff;
 
     .ul-container {
-      max-width: 600px;
+      max-width: 300px;
       display: grid;
       grid-template-columns: 1fr 1fr;
-      margin: 0 auto;
+      justify-content: center;
       padding-top: 10px;
+      margin: 0 auto;
 
       h2 {
         grid-column: 1/4;
@@ -64,7 +65,8 @@
       ul {
         line-height: 1.8rem;
         margin: 0 auto;
-        padding: 10px 50px;
+        padding: 10px 35px;
+        justify-self: center;
 
         li {
           font-weight: $body;
@@ -123,6 +125,10 @@
 
     .toolkit {
       grid-area: tools;
+      min-width: 275px;
+      ul {
+        padding: 10px 25px;
+      }
     }
   } //end of media break 1
 } //about-wrapper
