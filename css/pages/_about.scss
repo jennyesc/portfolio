@@ -2,125 +2,127 @@
 @use '../utilities/mixins' as *;
 
 //styles for about page
-.about-wrapper{
 
+.about-wrapper {
+  justify-content: center;
+  margin-top: 100px;
+  align-content: center;
 
-    .about-intro-1{
-        margin-top: 100px;
-        position: relative;
-        
-        .pic-cont{
-            margin: 0 auto;
-            height: 100%;
-            width: auto;
-            img{
-                // max-height: 450px;
-                width: auto;   
-                object-fit: cover; 
-            }
-        }
-    .welcome-container{
-        display: none;
+  .about-intro-1 {
+    margin: 0 auto;
+    min-height: 250px;
+    min-width: 250px;
+    max-height: 500px;
+    max-width: 500px;
+
+    picture {
+      img {
+        object-fit: cover;
+        display: block;
+      }
     }
-        .about-text{
-            padding: 15px;
-            max-width: 100%;
-            h3{
-                padding: 20px 0 5px 15px;
-            }
+  }
 
-            p{
-                padding: 20px 15px 5px 15px;
-                line-height: 1.4rem;
-                max-width: 550px;
-                display: inline-block;
-            }
+  .about-text {
+    max-width: 500px;
+    margin: 0 auto;
+  }
 
-            
+  .view-all-btn,
+  .gd-button {
+    text-align: center;
+
+    h2 {
+      font-size: 1rem;
+      width: 320px;
+      margin: 0 auto;
+    }
+    a {
+      padding: 25px;
+    }
+  }
+
+  .toolkit {
+    padding: 35px 0;
+    width: 100%;
+    background-color: $jne-red;
+    color: #fff;
+
+    .ul-container {
+      max-width: 600px;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      margin: 0 auto;
+      padding-top: 10px;
+
+      h2 {
+        grid-column: 1/4;
+        text-align: center;
+        margin-bottom: 20px;
+        text-transform: uppercase;
+      }
+      ul {
+        line-height: 1.8rem;
+        margin: 0 auto;
+        padding: 10px 50px;
+
+        li {
+          font-weight: $body;
         }
+
+        .li-heading {
+          text-transform: uppercase;
+          font-weight: $bold;
+          margin-bottom: 8px;
+          font-size: 1rem;
+        }
+
+        .adobe {
+          font-weight: $light;
+          margin-left: 8px;
+        }
+      }
+    }
+  }
+  @media (min-width: $menuBreak) {
+    margin-top: 150px;
+    max-width: $siteWidth;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 15px;
+    grid-template-areas:
+      "intro-text   intro-text  intro-text     jne-pic  "
+      "tools        tools       black-btn      black-btn"
+      "tools        tools       yellow-btn     yellow-btn";
+
+    .about-intro-1 {
+      grid-area: jne-pic;
+      width: 370px;
     }
 
-    .toolkit{
-        background: $jne-blue;
-        .toolkit-container{
-            @include mc;
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: space-around;
-            padding: $padding;
-            color: #fff;
-            max-width: 600px;
-        }
-
-        h3{
-            width: 100%;
-            margin-bottom: 25px;
-            margin-top: 10px;
-            text-align: center;
-            border-bottom: 1px solid darken($jne-blue, 5%);
-            padding-bottom: 15px;
-            border-radius: $border4;
-        }
-
-        ul{ 
-            line-height: 1.6rem;
-            
-            .li-heading{
-                font-weight: $bold;
-                margin-bottom: 5px;
-                font-size: 1.05rem;
-            }
-            .li{
-                padding: 10px 0;
-                display: inline-block;
-            }
-            .adobe{
-                margin-left: 10px;
-                font-weight: $light;
-            }    
-        }  
-
+    .about-text {
+      grid-area: intro-text;
+      margin: 0;
+      max-width: 850px;
+      align-self: center;
+      justify-self: center;
     }
 
-    @media(min-width: $break1){
-        @include mc;
-        max-width: 800px;
-        margin-top: 110px;
-
-        .about-intro-1{
-            margin: 0;
-            display: grid;
-            grid-template-columns: repeat(4,2fr);
-            grid-template-rows: repeat(1, 1fr);
-            grid-gap: 0.75rem;
-            grid-template-areas: 
-                "about-text   about-text   img          img  "
-                "all-link   all-link       all-link    all-link  "
-                ;
-
-                picture{
-                    grid-area: img;
-                    margin: 0;
-                    padding: 0;
-
-                    img{
-                        display: block;
-                        object-fit: cover;
-                        max-height: 100%;
-                    }
-                }
-                .welcome-container{
-                    display: none;
-                }
-                .about-text{
-                    grid-area: about-text;
-                }
-
-                .view-all-btn{
-                    grid-area: all-link;
-                }
-        }
-        
+    .view-all-btn {
+      grid-area: black-btn;
+      display: flex;
+      align-items: center;
     }
-    
-}//end about wrapper
+
+    .gd-button {
+      grid-area: yellow-btn;
+      margin: 0;
+      display: flex;
+      align-items: center;
+    }
+
+    .toolkit {
+      grid-area: tools;
+    }
+  } //end of media break 1
+} //about-wrapper
