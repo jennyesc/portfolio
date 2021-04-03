@@ -6,56 +6,6 @@
 
 //buttons and link blocks
 
-// .btn-container {
-//   display: flex;
-//   justify-content: center;
-//   margin-top: 15px;
-
-//   .faux-btn {
-//     display: inline-block;
-//     width: 300px;
-//     max-width: 500px;
-//     border-radius: $border4;
-//     text-align: center;
-//     padding: 12px;
-//     color: #fff;
-//     font-weight: $medium;
-//     font-size: 0.875rem;
-//     margin: 15px 0 20px 0;
-//     @include box-shadow();
-//     text-transform: uppercase;
-//     line-height: 1.5rem;
-//   }
-
-//   .red-btn {
-//     color: $jne-red;
-//     border-right: $jne-red 0.031rem solid;
-//     border-bottom: $jne-red 0.031rem solid;
-//   }
-
-//   .blue-btn {
-//     color: $jne-blue;
-//     border-right: $jne-blue 0.031rem solid;
-//     border-bottom: $jne-blue 0.031rem solid;
-//   }
-
-//   .yellow-btn {
-//     color: #000;
-//     border-right: $jne-yellow 0.031rem solid;
-//     border-bottom: $jne-yellow 0.031rem solid;
-//   }
-//   @media (min-width: $break1) {
-//     flex-wrap: nowrap;
-//     justify-content: space-around;
-//     max-width: 600px;
-//     margin: 0 auto;
-
-//     .red-btn {
-//       margin-right: 20px;
-//     }
-//   }
-// }
-
 .view-all-btn {
   background: #121212;
   text-align: center;

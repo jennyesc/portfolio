@@ -543,6 +543,20 @@ a {
     padding-right: 20px;
   }
 }
+@media (min-width: 1000px) {
+  .project-intro .project-summary .ts-btn:hover,
+.project-intro .project-summary .ts-btn :active {
+    box-shadow: -3px -3px 7px #ebebeb inset, 3px 3px 7px #b49497 inset;
+    user-select: none;
+  }
+  .project-intro .project-summary .pf-btn:hover:hover,
+.project-intro .project-summary .pf-btn:hover :active,
+.project-intro .project-summary .pf-btn :active:hover,
+.project-intro .project-summary .pf-btn :active :active {
+    box-shadow: -3px -3px 7px #e8e8e8 inset, 3px 3px 7px #a2adba inset;
+    user-select: none;
+  }
+}
 .project-intro .scroll-down {
   display: none;
 }
@@ -566,7 +580,7 @@ a {
     border-radius: 50%;
     background-color: #000;
     margin: 0 auto;
-    animation: anim1 3.5s infinite;
+    animation: scroll 3.5s infinite;
   }
 }
 .project-intro .scroll-white {
@@ -575,7 +589,7 @@ a {
 .project-intro .scroll-white .rond {
   background: #fff;
 }
-@keyframes anim1 {
+@keyframes scroll {
   0% {
     margin-top: 0px;
     opacity: 0;

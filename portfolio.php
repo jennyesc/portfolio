@@ -32,8 +32,8 @@
                         <p class="timeline">Project timeline: Five Weeks </p>            
                 </div>
                 <div class="button-container">                   
-                    <a class="btn white-btn" href="https://www.jennyescobell.com" target="_blank" rel="noopener noreferrer" > <i class="fas fa-desktop"></i>&nbsp;&nbsp; Live Site</a>
-                    <a class="btn white-btn" href="https://github.com/jennyesc/portfolio" target="_blank" rel="noopener noreferrer"> <i class="fab fa-github"></i>&nbsp;&nbsp;GitHub</a>
+                    <a class="btn pf-btn" href="https://www.jennyescobell.com" target="_blank" rel="noopener noreferrer" > <i class="fas fa-desktop"></i>&nbsp;&nbsp; Live Site</a>
+                    <a class="btn pf-btn" href="https://github.com/jennyesc/portfolio" target="_blank" rel="noopener noreferrer"> <i class="fab fa-github"></i>&nbsp;&nbsp;GitHub</a>
                 </div>
             </div>
 
