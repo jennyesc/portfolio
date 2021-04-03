@@ -2,8 +2,8 @@
 <html lang="en">
 <head>
     <?php include 'head.php';?>
-
-    <title>Jenny Escobell | Front End Developer & UX Designer | New Westminster BC</title>
+    <meta description="Welcome to Jenny Escobell's portfolio. Front End Developer, UX and Graphic Designer located just outside of Vancouver, BC Canada.">
+    <title>Jenny Escobell's Portfolio | Front End Developer, UX and Graphic Designer</title>
 </head>
 <body>
     <header>
@@ -21,7 +21,7 @@
         </section>
 
         <div class="wrapper-desktop">
-            <section class="current-container">
+            <div class="current-container">
                 <picture>
                     <source media="(max-width: 500px)" srcset="images/two-sisters-mobile-500.jpg">
                     <source media="(max-width: 750px)" srcset="images/two-sisters-mobile-1000.jpg">
@@ -44,10 +44,9 @@
                 <div class="view-all-btn">
                     <a href="projects.php" class="view-all-link"> <span class="black-border">View all projects</span> </a>
                 </div>
-            </section>
+            </div>
 
             <div class="about-jenny-container">
-
                 <picture class="jne-pic">
                     <source media="(max-width: 500px)" srcset="images/about-jenny-320w.jpg">
                     <source media="(max-width: 750px)" srcset="images/about-jenny-750w.jpg">
@@ -73,14 +72,14 @@
                     <div class="black-box"></div>
                 </div>
             </div>
-    </div> <!-- end wrapper desktop  -->
+        </div> <!-- end wrapper desktop  -->
     
         <button onclick="topFunction()" id="myBtn" class="top-btn" title="Go to top"><i class="fas fa-arrow-circle-up"></i> </button>
 
-        <footer>
-            <?php include 'footer.php';?>
-        </footer>
+    <footer>
+        <?php include 'footer.php';?>
+    </footer>
+
     </main>
-    <script src="scripts/javascript.js"></script>
 </body>
 </html>

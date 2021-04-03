@@ -1,4 +1,4 @@
-<div class="accordion accordion-blue">
+<div class="accordion accordion-blue accordion-container-02">
     <section class="accordion-container accordion-container-01">
         <h2 class="tab tab-01">Process <span class="fas fa-plus plus-minus"> </span>  </h2>
         <section class="content content-01">
@@ -14,7 +14,7 @@
             </p>
             
             <h3><i class="fas fa-sitemap"></i>&ensp;Wireframes</h3>    
-            <div class="wireframes wireframes-pf"> 
+            <section class="wireframes wireframes-pf"> 
                 <h4>Home Page</h4>
                     <img src="images/mobile-home.jpg" alt="wireframe of home page">
                     <img src="images/mobile-home-2.jpg" alt="wireframe of home page">
@@ -31,7 +31,7 @@
                     <img src="images/mobile-about2.jpg" alt="wireframe of about page">
                 <h4>Contact Page</h4>
                     <img src="images/mobile-contact.jpg" alt="wireframe of about page">
-            </div>
+            </section>
         </section>  <!-- end content -->    
     </section> <!-- end accordion container 01 -->
 
@@ -120,18 +120,18 @@
             <p>The version of this portfolio project you are viewing is probably not the version I had up when I wrote this. 
                 As everyone kept telling me, the portfolio site is always evolving.</p>
 
-            <p>This project has definitely been a learning opportunity for me. It gave me the opportunity to try out new skills and learn as I go. As we did our program during global pandemic, 
-                we worked on the portfolio project individually and I missed the collaboration that happens during team project or even in a class room setting. Thankfully, I developed positive 
-                relationships with my classmates and they were there to lend a hand when needed (and vice versa). I definitely learnt to let go of my 
-                print industry graphic design background and needing things to be pixel perfect.</p>
+            <p>This project has definitely been a learning opportunity for me. It gave me the opportunity to try out new skills and learn as I go. 
+                As we did our program during global pandemic, we worked on the portfolio project individually and I missed the collaboration that 
+                happens during team project or even in a class room setting. Thankfully, I developed positive relationships with my classmates, who were there 
+                to lend a hand when needed (and vice versa). I definitely learnt to let go of my print industry graphic design background and needing things to be pixel perfect.</p>
 
             <p>When I had submitted my portfolio, it was not at the level that I needed it to be to feel proud of it. 
                 As we were working on our Capstone project simultaneously, I didn't look at my portfolio after it was submitted. Once our program completed, 
                 I worked on small updates before tackling the bigger changes that needed to be made. </p>
 
-            <p>During the content development phase, I spent a good chunk of time gathering appropriate template files to create images with the most impact. As I am working on this version of the portfolio, I am starting to feel that pride again. 
+            <p>During the content development phase, I spent a good chunk of time gathering appropriate template files to create images with the most impact. 
+                As I am working on this version of the portfolio, I am starting to feel that pride again. 
             </p>
-            
         </section>  <!-- end content -->    
     </section> <!-- end accordion container 04 -->
 </div> <!-- end accordion -->

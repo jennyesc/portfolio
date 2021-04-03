@@ -54,16 +54,13 @@
                     <p>Adobe Photoshop, GitHub, VS Code, HTML5, CSS3/Sass, React, JavaScript.</p>
                 </section>
             </div>
-
-            <section class="box accordion-container accordion-container-02">
                 <?php include 'accordion-mb.php';?>
-            </section>
         </div>
 
-        <section class="indiv-box-cont">
-            <a class="blue-box" href="portfolio.php"> <i class="fas fa-chevron-left"></i> Previous</div>
-            <a class="black-box" href="two-sisters.php">Next <i class="fas fa-chevron-right"></i></div>
-        </section>
+        <div class="indiv-box-cont">
+            <a class="blue-box" href="portfolio.php"> <i class="fas fa-chevron-left"></i> Previous</a>
+            <a class="black-box" href="two-sisters.php">Next <i class="fas fa-chevron-right"></i></a>
+        </div>
        
         <footer>
             <?php include 'footer.php';?>

@@ -1,4 +1,4 @@
-<div class="accordion">
+<div class="accordion accordion-container-02">
     <section class="accordion-container accordion-container-01">
         <h2 class="tab tab-01">Process <span class="fas fa-plus plus-minus"> </span>  </h2>
         <section class="content content-01">

@@ -1,4 +1,4 @@
-<div class="accordion accordion-yellow">
+<div class="accordion accordion-yellow accordion-container-02">
     <section class="accordion-container accordion-container-01">
         <h2 class="tab tab-01">Process <span class="fas fa-plus plus-minus"> </span>  </h2>
         <section class="content content-01">
@@ -25,13 +25,10 @@
             <section class="logo-container mb-logo-container">
                 <h4>Logo</h4>
                 <img src="images/movieBuff.jpg" alt="the Movie Buff logo">
-
-
             </section>
 
             <h4>Colour Palette </h4>
             <div class="colour-container">
-                
                 <div class="colour mb-1"> <p>#fc007a</p> </div>
                 <div class="colour mb-2"><p>#40132a</p></div>
                 <div class="colour mb-3"><p>#a3768c</p></div>

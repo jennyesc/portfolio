@@ -8,9 +8,8 @@
     <header>
         <?php include 'header.php';?>
     </header>
-
+    
     <main>
-
         <section class="project-intro">
             <picture class="portfolio-header">
                 <source media="(max-width: 500px)" srcset="images/portfolio-500.jpg">
@@ -29,7 +28,8 @@
                         The Netherlands, the architectural and art forms from the De Stijl movement, made an everlasting impression with me. With the 
                         creative freedom of this project, I choose to take from my inspiration and use the bold colours and grid layouts. 
                     </p>
-                        <p class="timeline">Project timeline: Five Weeks </p>            
+                        
+                    <p class="timeline">Project timeline: Five Weeks </p>            
                 </div>
                 <div class="button-container">                   
                     <a class="btn pf-btn" href="https://www.jennyescobell.com" target="_blank" rel="noopener noreferrer" > <i class="fas fa-desktop"></i>&nbsp;&nbsp; Live Site</a>
@@ -50,28 +50,24 @@
                     <p>As this was a solo project, I did 100% of the work.</p>
                 </div>
                 
-                <div class="key-container">
+                <section class="key-container">
                     <i class="fas-pf fas fa-toolbox"></i>
                     <h2 class="key-heading">Toolbox</h2>
                     <p>Adobe XD, Adobe Photoshop, GitHub, Trello, VS Code, HTML5, CSS3/Sass, JavaScript, PHP.</p>
-                </div>
+                </section>
             </section>
-
-            <section class="box accordion-container accordion-container-02">
                 <?php include 'accordion-pf.php';?>
-            </section>
         </div>
 
-        <section class="indiv-box-cont">
+        <div class="indiv-box-cont">
             <a class="blue-box" href="two-sisters.php"> <i class="fas fa-chevron-left"></i> Previous</a>
             <a class="black-box" href="moviebuff.php">Next <i class="fas fa-chevron-right"></i></a>
-        </section>
+        </div>
 
        <footer>
             <?php include 'footer.php';?>
         </footer>
     </main>
     <script src="scripts/javascript.js"></script>
-  
 </body>
 </html>
