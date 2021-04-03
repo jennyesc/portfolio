@@ -36,7 +36,7 @@
             </div>
 
             <div class="gd-button">
-                <a href="#" class="view-all-link"> <h2 class="yellow-border">Graphic Design Examples</h2> </a>
+                <!-- <a href="#" class="view-all-link"> <h2 class="yellow-border">Graphic Design Examples</h2> </a> -->
             </div>
                 
             

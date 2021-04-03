@@ -178,15 +178,55 @@ a {
   line-height: 2.6rem;
   font-weight: 500;
   text-transform: inherit;
+  position: relative;
 }
 .intro-container .intro h1 .red-block {
-  border-bottom: 3px solid #bf212e;
+  display: inline-block;
+}
+.intro-container .intro h1 .red-block::after {
+  content: "";
+  display: block;
+  height: 4px;
+  background: #bf212e;
+  animation: line-in 2s ease-out;
+  width: 100%;
+  animation-fill-mode: both;
 }
 .intro-container .intro h1 .blue-block {
-  border-bottom: 3px solid #304673;
+  display: inline-block;
+}
+.intro-container .intro h1 .blue-block::before {
+  width: 0%;
+  display: inline-block;
+}
+.intro-container .intro h1 .blue-block::after {
+  width: 100%;
+  content: "";
+  display: block;
+  height: 4px;
+  background: #304673;
+  animation: line-in 2s ease-out 2s;
+  animation-fill-mode: both;
 }
 .intro-container .intro h1 .yellow-block {
-  border-bottom: 3px solid #f2b90c;
+  display: inline-block;
+}
+.intro-container .intro h1 .yellow-block::after {
+  content: "";
+  display: block;
+  height: 4px;
+  background: #f2b90c;
+  animation: line-in 2s ease-out 4s;
+  width: 100%;
+  animation-fill-mode: both;
+}
+@keyframes line-in {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 100%;
+  }
 }
 @media (min-width: 800px) {
   .intro-container {
@@ -852,31 +892,26 @@ a {
   }
 }
 
-.wrpr-contact {
-  padding: 0;
-}
-.wrpr-contact .contact-intro {
+.contact-intro {
   max-width: 1400px;
   margin: 0 auto;
-  margin: 75px auto 10px auto;
-  max-width: 650px;
-  padding: 50px 20px;
+  margin: 100px auto 20px auto;
+  padding: 50px 20px 10px;
 }
-.wrpr-contact .contact-intro h2 {
+.contact-intro h1 {
   font-size: 1.25rem;
   font-weight: 700;
   text-transform: uppercase;
   margin-bottom: 10px;
 }
 @media (min-width: 650px) {
-  .wrpr-contact .contact-intro {
-    max-width: 850px;
-    margin-top: 120px;
+  .contact-intro {
+    max-width: 1200px;
+    margin: 120px auto 20px auto;
+    text-align: center;
   }
-}
-@media (min-width: 650px) {
-  .wrpr-contact {
-    height: 150px;
+  .contact-intro h1 {
+    margin-bottom: 15px;
   }
 }
 
@@ -884,12 +919,12 @@ a {
   max-width: 1400px;
   margin: 0 auto;
   background: #fff;
-  max-width: 1400px;
+  max-width: 1000px;
   display: grid;
   align-items: center;
   grid-template-columns: repeat 2, 2fr;
-  grid-auto-rows: 125px;
   grid-gap: 15px;
+  grid-row-gap: 0px;
   grid-template-areas: "email      email" "tweet      linkedin" "call        call";
 }
 .contact-boxes .box {
@@ -908,7 +943,8 @@ a {
   font-weight: 700;
   font-size: 1.25rem;
 }
-.contact-boxes .fas, .contact-boxes .fab {
+.contact-boxes .fas,
+.contact-boxes .fab {
   font-size: 1.875rem;
 }
 .contact-boxes .email {
@@ -928,15 +964,6 @@ a {
 .contact-boxes .fa-mobile {
   grid-area: call;
   background-color: #304673;
-}
-@media (min-width: 650px) {
-  .contact-boxes {
-    max-width: 650px;
-    grid-auto-rows: 90px;
-    grid-gap: 0;
-    height: 65vh;
-    grid-template-areas: "email      email" "tweet      linkedin" "tweet      linkedin" "call        call";
-  }
 }
 
 .accordion-container-02 .tab {

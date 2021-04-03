@@ -78,7 +78,7 @@
 
             <section class="mockup-designs pf-mockup-designs">
                 <h3> <i class="fas fa-laptop"></i>&ensp;High Fidelity Mockup Designs</h3>
-                <p>I created high fidelity mockups for this project and designed for mobile first. </p>
+                <p>High fidelity mockups were created for this project and designed for mobile first. </p>
                  <img class="mob-mockup" src="images/phone-mockups-pf.jpg" alt="mobile mock ups of website">
                  <img class="desk-mockup" src="images/portfolio-desk-mu.jpg" alt="mock ups of website">
             </section>
@@ -129,8 +129,7 @@
                 As we were working on our Capstone project simultaneously, I didn't look at my portfolio after it was submitted. Once our program completed, 
                 I worked on small updates before tackling the bigger changes that needed to be made. </p>
 
-            <p>As I am working on this version of the portfolio, I am starting to feel that pride again. During the content development phase, 
-                I spent a good chunk of time gathering appropriate template files to create images with the most impact. I am very proud of the images and content on the site.
+            <p>During the content development phase, I spent a good chunk of time gathering appropriate template files to create images with the most impact. As I am working on this version of the portfolio, I am starting to feel that pride again. 
             </p>
             
         </section>  <!-- end content -->    

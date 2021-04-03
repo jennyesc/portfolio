@@ -21,18 +21,61 @@
       line-height: 2.6rem;
       font-weight: $medium;
       text-transform: inherit;
+      position: relative;
 
       .red-block {
-        border-bottom: 3px solid $jne-red;
+        display: inline-block;
+      }
+
+      .red-block::after {
+        content: "";
+        display: block;
+        height: 4px;
+        background: $jne-red;
+        animation: line-in 2s ease-out;
+        width: 100%;
+        animation-fill-mode: both;
       }
 
       .blue-block {
-        border-bottom: 3px solid $jne-blue;
+        display: inline-block;
+      }
+
+      .blue-block::before {
+        width: 0%;
+        display: inline-block;
+      }
+      .blue-block::after {
+        width: 100%;
+        content: "";
+        display: block;
+        height: 4px;
+        background: $jne-blue;
+        animation: line-in 2s ease-out 2s;
+        animation-fill-mode: both;
       }
 
       .yellow-block {
-        border-bottom: 3px solid $jne-yellow;
+        display: inline-block;
       }
+
+      .yellow-block::after {
+        content: "";
+        display: block;
+        height: 4px;
+        background: $jne-yellow;
+        animation: line-in 2s ease-out 4s;
+        width: 100%;
+        animation-fill-mode: both;
+      }
+    }
+  }
+  @keyframes line-in {
+    0% {
+      width: 0%;
+    }
+    100% {
+      width: 100%;
     }
   }
   @media (min-width: 800px) {
