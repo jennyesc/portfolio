@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <meta description="Lets collaborate! Contact me today to collaborate.">
     <?php include 'head.php';?>
-
-    <title>Jenny Escobell | Front End Developer & UX Designer | New Westminster BC</title>
+    <title>Lets Connect! Contact Jenny</title>
 </head>
 <body>
     <header>

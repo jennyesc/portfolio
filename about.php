@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <meta description="About Jenny Escobell, Front End Developer, UX and Graphic Designer located just outside of Vancouver, BC Canada.">
     <?php include 'head.php';?>
-
-    <title>Jenny Escobell | Front End Developer & UX Designer | New Westminster BC</title>
+    <title>About Jenny Escobell | Front End Developer, UX and Graphic Designer </title>
 </head>
 <body>
     <header>

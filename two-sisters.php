@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <meta description="Wordpress ecommerce project built using the WooCommerce plugin.">
     <?php include 'head.php';?>
-    
-    <title>Jenny Escobell | Front End Developer & UX Designer | New Westminster BC</title>
+    <title>WordPress Front End Web Development Project | Two Sisters Bakery</title>
 </head>
 <body>
     <header>
@@ -77,10 +77,4 @@
 </body>
 </html>
 
-
-<!-- <div class="btn-container">
-            <a class="red-btn faux-btn" href="https://www.jennyescobell.com/twosisters" target="_blank" rel="noopener noreferrer" > Live Site</a>
-       
-            <a class="yellow-btn faux-btn" href="https://github.com/htpwebdesign/two-sisters" target="_blank" rel="noopener noreferrer"> GitHub</a>
-        </div> -->
        

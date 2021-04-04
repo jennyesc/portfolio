@@ -115,7 +115,7 @@
 
             <p> We created a Trello board to keep track of our project and the key content documents. 
                 As we all worked together cropping 83 product photos,
-                we used a shared Dropbox folder to avoid any duplicate efforts made during the process.
+                we used a shared Dropbox folder to avoid any duplicate efforts made during the process.</p>
 
             <p>I learned a lot during this project, especially when it came to styling WordPress sites. 
                 I am proud to say that we had zero merge conflicts during the project and am very proud of our end result.</p> 

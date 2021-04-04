@@ -1,8 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <meta description="Portfolio project built using HTML5, CSS3/Sass, including JavaScript and JQuery.">
     <?php include 'head.php';?> 
-    <title>Jenny Escobell | Front End Developer & UX Designer | New Westminster BC</title>
+    <title>HTML5, CSS3/Sass project including JavaScript and JQuery. </title>
 </head>
 <body>
     <header>

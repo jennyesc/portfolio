@@ -1,8 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <meta description="React App project developmnent using the TMDB rest API to pull dynamic content.">
     <?php include 'head.php';?>
-    <title>Jenny Escobell | Front End Developer & UX Designer | New Westminster BC</title>
+    <title>MovieBuff React App Project using rest API</title>
 </head>
 <body>
     <header>

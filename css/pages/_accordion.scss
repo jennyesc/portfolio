@@ -323,8 +323,12 @@
 
 .content-reflections {
   display: grid;
+  p {
+    margin-bottom: 12px;
+  }
   a {
     margin: 0 auto;
+    color: $jne-dark-red;
     img {
       border-radius: $border4;
       margin: 0 auto;

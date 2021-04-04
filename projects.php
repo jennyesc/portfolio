@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <meta description="Web development projects created by Jenny Escobell. Front-end Development projects include a WordPress project, HTML5 CSS3/Sass project and a React App project">
     <?php include 'head.php';?> 
-
-    <title>Jenny Escobell | Front End Developer & UX Designer | New Westminster BC</title>
+    <title>Web Development Projects created by Jenny Escobell</title>
 </head>
 <body>
     <header>

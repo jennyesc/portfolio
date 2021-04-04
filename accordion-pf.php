@@ -115,7 +115,7 @@
 
     <section class="accordion-container accordion-container-01">
         <h2 class="tab tab-04">Reflections <span class="fas fa-plus plus-minus"> </span>  </h2>
-        <section class="content content-04">
+        <section class="content content-reflections">
             <h3><i class="far fa-comment-dots"></i>&ensp;Reflections</h3>
             <p>The version of this portfolio project you are viewing is probably not the version I had up when I wrote this. 
                 As everyone kept telling me, the portfolio site is always evolving.</p>

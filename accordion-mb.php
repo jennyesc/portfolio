@@ -69,19 +69,16 @@
 
     <section class="accordion-container accordion-container-01">
         <h2 class="tab tab-04">Reflections <span class="fas fa-plus plus-minus"> </span>  </h2>
-        <section class="content content-04">
+        <section class="content content-reflections">
             <h3><i class="far fa-comment-dots"></i>&ensp;Reflections</h3>
             <p>This was a great project to jump in feet first using React. We did get a bit of assistance from our instructor, which helped us 
                 a great deal during development. I plan to create another React app to grasp a better understanding of the funcitonality development. 
                 My focus was more on the styling and troubleshooting during the development process and my partner took on more of the functionality.</p> 
 
                 <p class="last-par">Overall, I am proud of the end result and that we were able to create a site, which had all the functionality required, resembled the original 
-                mockup designs and is fully responsive. </p>
+                mockup designs, is fully responsive, and has a pretty cool <a href="https://jennyescobell.com/movieBuff/notapage" target="_blank" rel="noopener noreferrer">404 page</a>. </p>
         </section>  <!-- end content -->    
     </section> <!-- end accordion container 04 -->
-
-
-
 </div> <!-- end accordion -->
 
 

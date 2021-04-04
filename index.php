@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <meta description="Welcome to Jenny Escobell's portfolio. Front End Developer, UX and Graphic Designer located just outside of Vancouver, BC Canada.">    
     <?php include 'head.php';?>
-    <meta description="Welcome to Jenny Escobell's portfolio. Front End Developer, UX and Graphic Designer located just outside of Vancouver, BC Canada.">
     <title>Jenny Escobell's Portfolio | Front End Developer, UX and Graphic Designer</title>
 </head>
 <body>
