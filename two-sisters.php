@@ -35,7 +35,7 @@
     
                 <div class="button-container">                   
                     <a class="btn ts-btn" href="https://www.jennyescobell.com/twosisters" target="_blank" rel="noopener noreferrer" > <i class="fas fa-desktop"></i>&nbsp;&nbsp; Live Site</a>
-                    <a class="btn ts-btn" href="https://github.com/htpwebdesign/two-sisters" target="_blank" rel="noopener noreferrer"> <i class="fab fa-github"></i>&nbsp;&nbsp;GitHub</a>
+                    <a class="btn ts-btn" href="https://github.com/jennyesc/two-sisters" target="_blank" rel="noopener noreferrer"> <i class="fab fa-github"></i>&nbsp;&nbsp;GitHub</a>
                 </div>
             </div>
 
