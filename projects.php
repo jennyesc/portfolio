@@ -22,8 +22,8 @@
                 </picture>
             
                 <div class="proj-box proj-cur-textbox">
-                    <h2>Featured Project</h2>
-                    <h3>Two Sisters Bakery</h3>
+                    <h2>Two Sisters Bakery</h2>
+                    <h3>WordPress Project</h3>
 
                     <h3 class="tools"> Tools</h3>
                     <p class="tools-par"> Adobe XD | Adobe Photoshop <br> WordPress | WooCommerce</p>           

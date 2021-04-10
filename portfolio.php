@@ -3,7 +3,7 @@
 <head>
     <meta description="Portfolio project built using HTML5, CSS3/Sass, including JavaScript and JQuery.">
     <?php include 'head.php';?> 
-    <title>HTML5, CSS3/Sass project including JavaScript and JQuery. </title>
+    <title>Portfolio Project | HTML5, CSS3/Sass project including JavaScript and JQuery. </title>
 </head>
 <body>
     <header>
@@ -33,7 +33,7 @@
                     <p class="timeline">Project timeline: Five Weeks </p>            
                 </div>
                 <div class="button-container">                   
-                    <a class="btn pf-btn" href="https://www.jennyescobell.com" target="_blank" rel="noopener noreferrer" > <i class="fas fa-desktop"></i>&nbsp;&nbsp; Live Site</a>
+                    <a class="btn pf-btn" href="https://www.jennyescobell.com"> <i class="fas fa-desktop"></i>&nbsp;&nbsp; Live Site</a>
                     <a class="btn pf-btn" href="https://github.com/jennyesc/portfolio" target="_blank" rel="noopener noreferrer"> <i class="fab fa-github"></i>&nbsp;&nbsp;GitHub</a>
                 </div>
             </div>
