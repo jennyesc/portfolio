@@ -1,0 +1,6 @@
+
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^jennyescobell\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.jennyescobell\.com$
+RewriteRule ^$ "https\:\/\/jennyescobell\.com\/movieBuff\/" [R=301,L]
+

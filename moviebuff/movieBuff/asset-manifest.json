@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/movieBuff/static/css/main.13dacc56.chunk.css",
+    "main.js": "/movieBuff/static/js/main.362f03c7.chunk.js",
+    "main.js.map": "/movieBuff/static/js/main.362f03c7.chunk.js.map",
+    "runtime-main.js": "/movieBuff/static/js/runtime-main.d0258140.js",
+    "runtime-main.js.map": "/movieBuff/static/js/runtime-main.d0258140.js.map",
+    "static/js/2.4a36704b.chunk.js": "/movieBuff/static/js/2.4a36704b.chunk.js",
+    "static/js/2.4a36704b.chunk.js.map": "/movieBuff/static/js/2.4a36704b.chunk.js.map",
+    "index.html": "/movieBuff/index.html",
+    "static/css/main.13dacc56.chunk.css.map": "/movieBuff/static/css/main.13dacc56.chunk.css.map",
+    "static/js/2.4a36704b.chunk.js.LICENSE.txt": "/movieBuff/static/js/2.4a36704b.chunk.js.LICENSE.txt",
+    "static/media/404-bg.f92a45a6.jpg": "/movieBuff/static/media/404-bg.f92a45a6.jpg",
+    "static/media/about-bg.71191829.jpg": "/movieBuff/static/media/about-bg.71191829.jpg",
+    "static/media/fav-heart.ee6ceac3.png": "/movieBuff/static/media/fav-heart.ee6ceac3.png",
+    "static/media/heart-full.12b7f1ec.png": "/movieBuff/static/media/heart-full.12b7f1ec.png",
+    "static/media/movieBuff.76a7c553.png": "/movieBuff/static/media/movieBuff.76a7c553.png",
+    "static/media/poster-placeholder.1ad82c5a.jpg": "/movieBuff/static/media/poster-placeholder.1ad82c5a.jpg",
+    "static/media/tmdb-logo.2dd0e856.png": "/movieBuff/static/media/tmdb-logo.2dd0e856.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.d0258140.js",
+    "static/js/2.4a36704b.chunk.js",
+    "static/css/main.13dacc56.chunk.css",
+    "static/js/main.362f03c7.chunk.js"
+  ]
+}
