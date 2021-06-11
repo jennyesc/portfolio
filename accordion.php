@@ -82,7 +82,7 @@
                 Once we started styling, we styled for mobile first with media queries to accomodate responsive designs for tablet and desktop sizes.</p>
             
             <h4>Advanced Custom Fields WordPress plugin</h4>
-            <p class="last-par"> ACF gives us developers complete control of the content and
+            <p> ACF gives us developers complete control of the content and
                 limit what the client can edit upon completion. </p>
 
             <h4>Other WordPress plugins</h4>

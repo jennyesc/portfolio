@@ -156,7 +156,6 @@ html {
 }
 
 a {
-  text-decoration: none;
   color: #000;
 }
 
@@ -1090,10 +1089,12 @@ a {
   flex-wrap: wrap;
   justify-content: center;
   margin: 15px auto 35px auto;
+  width: 100%;
+  height: auto;
 }
 .content .logo-container img {
-  height: 200px;
-  width: auto;
+  height: auto;
+  width: 300px;
   -webkit-box-shadow: 1px 2px 3px 1px rgba(201, 201, 201, 0.3);
   -moz-box-shadow: 1px 2px 3px 1px rgba(201, 201, 201, 0.3);
   box-shadow: 1px 2px 3px 1px rgba(201, 201, 201, 0.3);
@@ -1219,6 +1220,7 @@ a {
   justify-items: center;
   max-width: 375px;
   margin: 0 auto 35px auto;
+  padding-top: 15px;
   height: 225px;
   overflow: scroll;
 }
@@ -1247,6 +1249,7 @@ a {
 }
 .content .mockup-designs img {
   border-radius: 4px;
+  margin-top: 15px;
 }
 @media (min-width: 550px) {
   .content .pf-mockup-designs {
