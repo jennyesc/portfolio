@@ -868,7 +868,7 @@ a {
 }
 @media (min-width: 720px) {
   .about-wrapper {
-    margin-top: 150px;
+    margin: 150px auto 0;
     max-width: 1400px;
     display: grid;
     grid-template-columns: repeat(4, 1fr);

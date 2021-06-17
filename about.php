@@ -28,7 +28,9 @@
 
                 <p>With practical and professional experience as a graphic designer, I have gained a strong foundation of industry standards and best practices. 
                 I always tell people that I love to listen to hear what you are not saying. I am team oriented, love to collaborate and appreciate feedback 
-                with the mindset to continuously grow as a developer and designer.</p>
+                with the mindset to continuously grow as a Developer.</p>
+
+                <p>When I am not behind my computer, you will find me either behind one of my sewing machines or on my bike exploring new trails.</p>
             </section>
             
             <div class="view-all-btn">
